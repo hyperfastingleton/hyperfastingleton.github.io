@@ -2,16 +2,134 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Village.kml</name>
-	<StyleMap id="m_ylw-pushpin">
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
 			<scale>1.18182</scale>
@@ -21,8 +139,27 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin">
+	<Style id="sn_ylw-pushpin0">
 		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.18182</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -33,7 +170,6 @@
 		<name>Village</name>
 		<Folder>
 			<name>LA6 3AA</name>
-			<open>1</open>
 			<Placemark>
 				<name>8 High Street (Old Post Office)</name>
 				<LookAt>
@@ -45,7 +181,7 @@
 					<range>159.0186120532689</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-2.466702652157446,54.15410453941367,0</coordinates>
@@ -54,7 +190,6 @@
 		</Folder>
 		<Folder>
 			<name>LA6 3AB</name>
-			<open>1</open>
 			<Placemark>
 				<name>Yanham House 5 High Street</name>
 				<LookAt>
@@ -66,7 +201,7 @@
 					<range>154.9850316282691</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-2.465966549706543,54.15406046048793,0</coordinates>
@@ -83,7 +218,7 @@
 					<range>154.9850316282691</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-2.466572910615716,54.1542564789582,0</coordinates>
@@ -100,7 +235,7 @@
 					<range>259.8004447548608</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-2.465925139205235,54.15428838079588,0</coordinates>
@@ -117,33 +252,32 @@
 					<range>267.073134983292</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-2.465729943938555,54.15378379719981,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>7 High Street (?)</name>
+				<name>7 High Street</name>
 				<LookAt>
-					<longitude>-2.465145503178477</longitude>
-					<latitude>54.15323040696667</latitude>
+					<longitude>-2.465635807518676</longitude>
+					<latitude>54.15397513626114</latitude>
 					<altitude>0</altitude>
-					<heading>0.8259941641204485</heading>
-					<tilt>29.38416072682932</tilt>
-					<range>237.842530668954</range>
+					<heading>0.0004320634609379457</heading>
+					<tilt>25.17581814893982</tilt>
+					<range>221.1979492284931</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-2.464620840699915,54.1539045933884,0</coordinates>
+					<coordinates>-2.465792054613858,54.15398167433269,0</coordinates>
 				</Point>
 			</Placemark>
 		</Folder>
 		<Folder>
 			<name>LA6 3AD</name>
-			<open>1</open>
 			<Placemark>
 				<name>Highfield House 17 High Street</name>
 				<LookAt>
@@ -155,7 +289,7 @@
 					<range>265.8792400845813</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-2.465142180001554,54.15336952595082,0</coordinates>
@@ -172,7 +306,7 @@
 					<range>265.5927988805574</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-2.465010856817047,54.15318670367115,0</coordinates>
@@ -189,78 +323,78 @@
 					<range>143.6635941367498</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-2.465501228289175,54.15342718318017,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>Craven Cottage 19 High Street (?)</name>
+				<name>Craven Cottage 19 High Street</name>
 				<LookAt>
-					<longitude>-2.465439098478099</longitude>
-					<latitude>54.15340692116118</latitude>
+					<longitude>-2.46535828082476</longitude>
+					<latitude>54.15324606217728</latitude>
 					<altitude>0</altitude>
-					<heading>0.8257668989834589</heading>
-					<tilt>27.30413518239995</tilt>
-					<range>143.6635941367498</range>
+					<heading>0.8257983949894145</heading>
+					<tilt>22.13718541195264</tilt>
+					<range>101.8779753360283</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-2.464652514463517,54.15369118207696,0</coordinates>
+					<coordinates>-2.465112446318329,54.15331931365462,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
 				<name>28 High Street</name>
 				<LookAt>
-					<longitude>-2.46514477641288</longitude>
-					<latitude>54.15330283471948</latitude>
+					<longitude>-2.4653582591479</longitude>
+					<latitude>54.15324694313905</latitude>
 					<altitude>0</altitude>
-					<heading>0.8259953152552411</heading>
-					<tilt>29.30390605404356</tilt>
-					<range>178.2731727413074</range>
+					<heading>0.8258044638207907</heading>
+					<tilt>23.15182708072326</tilt>
+					<range>94.19681011499932</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-2.465452471534442,54.1533837344092,0</coordinates>
+					<coordinates>-2.465440732189216,54.15338190315551,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
 				<name>30 High Street</name>
 				<LookAt>
-					<longitude>-2.465259794564622</longitude>
-					<latitude>54.15328126048194</latitude>
+					<longitude>-2.4653582591479</longitude>
+					<latitude>54.15324694313905</latitude>
 					<altitude>0</altitude>
-					<heading>0.8259020822296463</heading>
-					<tilt>29.3039087487869</tilt>
-					<range>178.8861531972984</range>
+					<heading>0.8258044638207907</heading>
+					<tilt>23.15182708072326</tilt>
+					<range>94.19681011499932</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-2.465389844862633,54.15334402725669,0</coordinates>
+					<coordinates>-2.465352440596529,54.15331613054951,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>The Cottage High Street (?)</name>
+				<name>The Cottage High Street</name>
 				<LookAt>
-					<longitude>-2.465145503178477</longitude>
-					<latitude>54.15323040696667</latitude>
+					<longitude>-2.46535828082476</longitude>
+					<latitude>54.15324606217728</latitude>
 					<altitude>0</altitude>
-					<heading>0.8259941641204485</heading>
-					<tilt>29.38416072682932</tilt>
-					<range>237.842530668954</range>
+					<heading>0.8257983949894145</heading>
+					<tilt>22.13718541195264</tilt>
+					<range>101.8779753360283</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-2.464643671280951,54.15379360942826,0</coordinates>
+					<coordinates>-2.465285802005374,54.15320121824207,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
@@ -274,10 +408,10 @@
 					<range>194.8049551773379</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-2.465573007843665,54.15345984936811,0</coordinates>
+					<coordinates>-2.465573007843665,54.15345984936812,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
@@ -291,7 +425,7 @@
 					<range>156.5008418494435</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-2.465696130651555,54.15387568789461,0</coordinates>
@@ -308,10 +442,10 @@
 					<range>156.5008418494435</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-2.465672310564991,54.15383230714816,0</coordinates>
+					<coordinates>-2.465672310564991,54.15383230714815,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
@@ -325,10 +459,10 @@
 					<range>156.5008418494435</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-2.465632009833469,54.15379164287214,0</coordinates>
+					<coordinates>-2.465632009833469,54.15379164287215,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
@@ -342,7 +476,7 @@
 					<range>156.5008418494435</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-2.465691793534999,54.15374949635167,0</coordinates>
@@ -351,52 +485,52 @@
 			<Placemark>
 				<name>1 Cragg Terrace</name>
 				<LookAt>
-					<longitude>-2.465593982903215</longitude>
-					<latitude>54.15378359497564</latitude>
+					<longitude>-2.465156525509905</longitude>
+					<latitude>54.15356568752181</latitude>
 					<altitude>0</altitude>
-					<heading>0.8256238493150764</heading>
-					<tilt>30.00048374266535</tilt>
-					<range>224.7470266068271</range>
+					<heading>0.0005174347245938503</heading>
+					<tilt>27.29463574348482</tilt>
+					<range>95.5519102176799</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-2.465332487510186,54.15369848828932,0</coordinates>
+					<coordinates>-2.465525825220897,54.15377616559418,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
 				<name>2 Cragg Terrace</name>
 				<LookAt>
-					<longitude>-2.465593982903215</longitude>
-					<latitude>54.15378359497564</latitude>
+					<longitude>-2.465156525509905</longitude>
+					<latitude>54.15356568752181</latitude>
 					<altitude>0</altitude>
-					<heading>0.8256238493150764</heading>
-					<tilt>30.00048374266535</tilt>
-					<range>224.7470266068271</range>
+					<heading>0.0005174347245938503</heading>
+					<tilt>27.29463574348482</tilt>
+					<range>95.5519102176799</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-2.465264327101658,54.15366763110475,0</coordinates>
+					<coordinates>-2.46549042192693,54.15375144737708,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
 				<name>3 Cragg Terrace</name>
 				<LookAt>
-					<longitude>-2.465593982903215</longitude>
-					<latitude>54.15378359497564</latitude>
+					<longitude>-2.465156525509905</longitude>
+					<latitude>54.15356568752181</latitude>
 					<altitude>0</altitude>
-					<heading>0.8256238493150764</heading>
-					<tilt>30.00048374266535</tilt>
-					<range>224.7470266068271</range>
+					<heading>0.0005174347245938503</heading>
+					<tilt>27.29463574348482</tilt>
+					<range>95.5519102176799</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-2.465185296157349,54.15363970179993,0</coordinates>
+					<coordinates>-2.465455927859648,54.15372736391838,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
@@ -410,7 +544,7 @@
 					<range>81.88338676281971</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-2.466460256325131,54.15401792015589,0</coordinates>
@@ -427,7 +561,7 @@
 					<range>130.2299655819907</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-2.466596637074185,54.15405836912289,0</coordinates>
@@ -444,7 +578,7 @@
 					<range>81.88338676281971</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-2.466416066447623,54.15399125890051,0</coordinates>
@@ -461,7 +595,7 @@
 					<range>75.40404314744457</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-2.465073254492354,54.15325776050381,0</coordinates>
@@ -478,7 +612,7 @@
 					<range>133.1999058001311</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-2.465907892385043,54.1535803101889,0</coordinates>
@@ -495,7 +629,7 @@
 					<range>69.73466725216649</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-2.466645667770877,54.15407632637958,0</coordinates>
@@ -512,10 +646,5305 @@
 					<range>83.08094436783065</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-2.46637155349464,54.15396607021055,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Merlin Cottage 20</name>
+				<LookAt>
+					<longitude>-2.466363068729609</longitude>
+					<latitude>54.15375119314881</latitude>
+					<altitude>0</altitude>
+					<heading>0.8249839243983528</heading>
+					<tilt>22.13670218638124</tilt>
+					<range>81.74581837321756</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.466266876454534,54.15389550346315,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hobby Cottage 20</name>
+				<LookAt>
+					<longitude>-2.466363068729609</longitude>
+					<latitude>54.15375119314881</latitude>
+					<altitude>0</altitude>
+					<heading>0.8249839243983528</heading>
+					<tilt>22.13670218638124</tilt>
+					<range>81.74581837321756</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.466342728355774,54.1538418387977,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3AE</name>
+			<Placemark>
+				<name>1 Blue Hall</name>
+				<LookAt>
+					<longitude>-2.464408779825984</longitude>
+					<latitude>54.15306053356437</latitude>
+					<altitude>0</altitude>
+					<heading>0.8265767754397836</heading>
+					<tilt>29.99981613383375</tilt>
+					<range>118.1723738822584</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.464503719503134,54.15316613344459,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Blue Hall</name>
+				<LookAt>
+					<longitude>-2.464370598917649</longitude>
+					<latitude>54.15304180774331</latitude>
+					<altitude>0</altitude>
+					<heading>0.826607724408472</heading>
+					<tilt>29.99981483103969</tilt>
+					<range>117.882279547677</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.464435626210809,54.15311429829034,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>3 Blue Hall</name>
+				<LookAt>
+					<longitude>-2.464370598917649</longitude>
+					<latitude>54.15304180774331</latitude>
+					<altitude>0</altitude>
+					<heading>0.826607724408472</heading>
+					<tilt>29.99981483103969</tilt>
+					<range>117.882279547677</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.464352584288231,54.15306781036654,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>42a High Street</name>
+				<LookAt>
+					<longitude>-2.464557224055932</longitude>
+					<latitude>54.15266339982755</latitude>
+					<altitude>0</altitude>
+					<heading>0.8264776469203735</heading>
+					<tilt>28.83735325749871</tilt>
+					<range>171.8294693241463</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.464635412762092,54.1527239173872,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3AF</name>
+			<Placemark>
+				<name>36 High Street</name>
+				<LookAt>
+					<longitude>-2.465018460452798</longitude>
+					<latitude>54.15318598721683</latitude>
+					<altitude>0</altitude>
+					<heading>0.8261005520970698</heading>
+					<tilt>28.63144820472826</tilt>
+					<range>122.3157727487711</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465249955719984,54.15315885826922,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>40 High Street</name>
+				<LookAt>
+					<longitude>-2.465018460452798</longitude>
+					<latitude>54.15318598721683</latitude>
+					<altitude>0</altitude>
+					<heading>0.8261005520970698</heading>
+					<tilt>28.63144820472826</tilt>
+					<range>122.3157727487711</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465310296303823,54.15303154803315,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>38 High Street</name>
+				<LookAt>
+					<longitude>-2.465018460452798</longitude>
+					<latitude>54.15318598721683</latitude>
+					<altitude>0</altitude>
+					<heading>0.8261005520970698</heading>
+					<tilt>28.63144820472826</tilt>
+					<range>122.3157727487711</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465269189248953,54.15309591918382,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>34 High Street</name>
+				<LookAt>
+					<longitude>-2.465018460452798</longitude>
+					<latitude>54.15318598721683</latitude>
+					<altitude>0</altitude>
+					<heading>0.8261005520970698</heading>
+					<tilt>28.63144820472826</tilt>
+					<range>122.3157727487711</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465273940523187,54.15320537772988,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3AH</name>
+			<Placemark>
+				<name>Storrs Gate</name>
+				<LookAt>
+					<longitude>-2.463636123526193</longitude>
+					<latitude>54.15232188544783</latitude>
+					<altitude>0</altitude>
+					<heading>0.8272242700885883</heading>
+					<tilt>28.83734281071813</tilt>
+					<range>169.4180723852603</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.463677913794959,54.15243673751957,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>1 Storrs Cottages</name>
+				<LookAt>
+					<longitude>-2.463636123526193</longitude>
+					<latitude>54.15232188544783</latitude>
+					<altitude>0</altitude>
+					<heading>0.8272242700885883</heading>
+					<tilt>28.83734281071813</tilt>
+					<range>169.4180723852603</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.463846052543422,54.15248413614473,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Storrs Cottages</name>
+				<LookAt>
+					<longitude>-2.463636123526193</longitude>
+					<latitude>54.15232188544783</latitude>
+					<altitude>0</altitude>
+					<heading>0.8272242700885883</heading>
+					<tilt>28.83734281071813</tilt>
+					<range>169.4180723852603</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.463938823525349,54.15250762260222,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Old Court House (multiple?)</name>
+				<LookAt>
+					<longitude>-2.463636123526193</longitude>
+					<latitude>54.15232188544783</latitude>
+					<altitude>0</altitude>
+					<heading>0.8272242700885883</heading>
+					<tilt>28.83734281071813</tilt>
+					<range>169.4180723852603</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.463215309037588,54.15231953978128,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Farthing Cottage 58 High Street</name>
+				<LookAt>
+					<longitude>-2.463636123526193</longitude>
+					<latitude>54.15232188544783</latitude>
+					<altitude>0</altitude>
+					<heading>0.8272242700885883</heading>
+					<tilt>28.83734281071813</tilt>
+					<range>169.4180723852603</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46328965067916,54.15217639402809,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Storrs Lea</name>
+				<LookAt>
+					<longitude>-2.463466846906142</longitude>
+					<latitude>54.15230453902884</latitude>
+					<altitude>0</altitude>
+					<heading>0.8273614843190204</heading>
+					<tilt>28.83733867898821</tilt>
+					<range>168.4643367575211</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.463467877198613,54.15239014560551,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3HJ</name>
+			<Placemark>
+				<name>1 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.461039078533085</longitude>
+					<latitude>54.15178226081453</latitude>
+					<altitude>0</altitude>
+					<heading>0.8293305484055042</heading>
+					<tilt>28.94659519877587</tilt>
+					<range>192.9544428570206</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.461039078533085,54.15178226081454,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>10 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.462382960126243</longitude>
+					<latitude>54.15164079421971</latitude>
+					<altitude>0</altitude>
+					<heading>0.8279366582261074</heading>
+					<tilt>30.19307618956142</tilt>
+					<range>135.2901568721598</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.461547732923872,54.15219448835568,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>11 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.461796927414055</longitude>
+					<latitude>54.15173362065539</latitude>
+					<altitude>0</altitude>
+					<heading>0.8283770754487396</heading>
+					<tilt>31.65964327773925</tilt>
+					<range>95.19655515142942</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.461811361550651,54.15188425804932,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>12 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.462382960126243</longitude>
+					<latitude>54.15164079421971</latitude>
+					<altitude>0</altitude>
+					<heading>0.8279366582261074</heading>
+					<tilt>30.19307618956142</tilt>
+					<range>135.2901568721598</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.461686653382489,54.15219521200776,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>13 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.462365423798902</longitude>
+					<latitude>54.15179200551317</latitude>
+					<altitude>0</altitude>
+					<heading>0.8282655683906994</heading>
+					<tilt>30.05271083060136</tilt>
+					<range>123.1923411887992</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46206243251427,54.15192143864858,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>14 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.461923621561678</longitude>
+					<latitude>54.15188564706963</latitude>
+					<altitude>0</altitude>
+					<heading>0.8283089852392326</heading>
+					<tilt>30.1935921670856</tilt>
+					<range>128.4944104984066</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.461864033122096,54.15220451652201,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>15 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.462222112547716</longitude>
+					<latitude>54.15170359345645</latitude>
+					<altitude>0</altitude>
+					<heading>0.8280323987851045</heading>
+					<tilt>31.65980280597746</tilt>
+					<range>128.9704891700215</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.462231912759348,54.15192881709292,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>16 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.461767679301153</longitude>
+					<latitude>54.15162911643935</latitude>
+					<altitude>0</altitude>
+					<heading>0.828748022794073</heading>
+					<tilt>30.08593110400944</tilt>
+					<range>122.8225909419784</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.462090064960072,54.15221913151755,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>17 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.462222112547716</longitude>
+					<latitude>54.15170359345645</latitude>
+					<altitude>0</altitude>
+					<heading>0.8280323987851045</heading>
+					<tilt>31.65980280597746</tilt>
+					<range>128.9704891700215</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.462369678758897,54.15193756782179,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>18 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.462631269927833</longitude>
+					<latitude>54.15175639552983</latitude>
+					<altitude>0</altitude>
+					<heading>0.8278165943404261</heading>
+					<tilt>24.98246740602143</tilt>
+					<range>141.949720014129</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.462356657498827,54.15223286158048,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>19 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.462198105818422</longitude>
+					<latitude>54.1517317884507</latitude>
+					<altitude>0</altitude>
+					<heading>0.8280757669073257</heading>
+					<tilt>29.42374021383697</tilt>
+					<range>93.79036716610811</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.462506663693522,54.15194643100445,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.461203902726029</longitude>
+					<latitude>54.1518629763366</latitude>
+					<altitude>0</altitude>
+					<heading>0.8291963971171004</heading>
+					<tilt>24.38261903760606</tilt>
+					<range>78.14966724256163</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.460836789923502,54.15209407062533,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>20 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.462750211598676</longitude>
+					<latitude>54.15185751774293</latitude>
+					<altitude>0</altitude>
+					<heading>0.8277169271627629</heading>
+					<tilt>25.14871876490291</tilt>
+					<range>257.1398777315972</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.462437457362117,54.15223148340346,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>21 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.463101440220652</longitude>
+					<latitude>54.15194752620219</latitude>
+					<altitude>0</altitude>
+					<heading>0.8273290123907509</heading>
+					<tilt>30.46063873335339</tilt>
+					<range>110.562733181255</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.462613059300457,54.15194578930961,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>22 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.462070861692386</longitude>
+					<latitude>54.15136174910359</latitude>
+					<altitude>0</altitude>
+					<heading>0.8282203483794205</heading>
+					<tilt>27.18702144788809</tilt>
+					<range>153.6240159907894</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.462708364645393,54.15226390825593,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>23 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.462460279848037</longitude>
+					<latitude>54.15156377700217</latitude>
+					<altitude>0</altitude>
+					<heading>0.8278486582453791</heading>
+					<tilt>30.46051762040906</tilt>
+					<range>210.1443127931757</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.462824749443372,54.15196012535171,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>25 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.461933164455294</longitude>
+					<latitude>54.15169501862876</latitude>
+					<altitude>0</altitude>
+					<heading>0.8285814569062143</heading>
+					<tilt>23.16479930178225</tilt>
+					<range>190.4973588105473</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.463095546033923,54.15197941530957,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>26 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.462070861692386</longitude>
+					<latitude>54.15136174910359</latitude>
+					<altitude>0</altitude>
+					<heading>0.8282203483794205</heading>
+					<tilt>27.18702144788809</tilt>
+					<range>153.6240159907894</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.462817962697686,54.15227213279629,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>28 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.46278485344066</longitude>
+					<latitude>54.15204653850736</latitude>
+					<altitude>0</altitude>
+					<heading>0.8276416122495832</heading>
+					<tilt>27.18718980772419</tilt>
+					<range>147.1348675696474</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.462929079822098,54.1522666565862,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>3 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.461643118193495</longitude>
+					<latitude>54.15179440443176</latitude>
+					<altitude>0</altitude>
+					<heading>0.8286507310258601</heading>
+					<tilt>25.19846743809789</tilt>
+					<range>178.0934104992778</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.461254118298929,54.15177165152667,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>4 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.461566266580092</longitude>
+					<latitude>54.15188638366807</latitude>
+					<altitude>0</altitude>
+					<heading>0.8289026751370641</heading>
+					<tilt>24.38262266218914</tilt>
+					<range>79.1271915122886</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.461074972821637,54.15215435946613,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>5 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.461529807207881</longitude>
+					<latitude>54.15199467989392</latitude>
+					<altitude>0</altitude>
+					<heading>0.8289428097148246</heading>
+					<tilt>22.74471319328953</tilt>
+					<range>190.7150696944394</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.461372830158761,54.151808590763,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>6 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.461356483196457</longitude>
+					<latitude>54.15206938710229</latitude>
+					<altitude>0</altitude>
+					<heading>0.8290938859527377</heading>
+					<tilt>21.776948095214</tilt>
+					<range>52.29048309049139</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.461277400826585,54.15218304807272,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>7 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.461422078763106</longitude>
+					<latitude>54.15180987684555</latitude>
+					<altitude>0</altitude>
+					<heading>0.8286809171877255</heading>
+					<tilt>31.65963060084279</tilt>
+					<range>92.50765888195116</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.461512815127438,54.15183593703746,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>8 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.461469257479789</longitude>
+					<latitude>54.15204440867907</latitude>
+					<altitude>0</altitude>
+					<heading>0.8289812173020233</heading>
+					<tilt>24.86660518675203</tilt>
+					<range>148.5019003617022</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.461380893158609,54.15219978356221,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>9 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.461364177306766</longitude>
+					<latitude>54.15180448202167</latitude>
+					<altitude>0</altitude>
+					<heading>0.8287278504418488</heading>
+					<tilt>31.65962907898681</tilt>
+					<range>92.1848632577119</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.461603837032371,54.15184244111454,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>24 Ingleborough Park Drive</name>
+				<LookAt>
+					<longitude>-2.462707036030275</longitude>
+					<latitude>54.15195442978098</latitude>
+					<altitude>0</altitude>
+					<heading>0.8277519086918911</heading>
+					<tilt>25.14812532813659</tilt>
+					<range>117.1868668417036</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.462583265341267,54.15226961277844,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3AL</name>
+			<Placemark>
+				<name>1 Ingleborough Park Close</name>
+				<LookAt>
+					<longitude>-2.46048268678553</longitude>
+					<latitude>54.15177721701581</latitude>
+					<altitude>0</altitude>
+					<heading>0.8298482785407343</heading>
+					<tilt>29.65270893909457</tilt>
+					<range>165.8669750657438</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.460425999051034,54.15191370333116,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Ingleborough Park Close</name>
+				<LookAt>
+					<longitude>-2.460376316107924</longitude>
+					<latitude>54.15120759319969</latitude>
+					<altitude>0</altitude>
+					<heading>0.8299344967747457</heading>
+					<tilt>29.65272917291894</tilt>
+					<range>170.4202342414217</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.460788723806885,54.15169285514462,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>3 Ingleborough Park Close</name>
+				<LookAt>
+					<longitude>-2.460187491937874</longitude>
+					<latitude>54.15159557919725</latitude>
+					<altitude>0</altitude>
+					<heading>0.8300875522517522</heading>
+					<tilt>29.65270767119631</tilt>
+					<range>165.5816375908042</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.460217906865051,54.15178067975069,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>5 Ingleborough Park Close</name>
+				<LookAt>
+					<longitude>-2.460187491937874</longitude>
+					<latitude>54.15159557919725</latitude>
+					<altitude>0</altitude>
+					<heading>0.8300875522517522</heading>
+					<tilt>29.65270767119631</tilt>
+					<range>165.5816375908042</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.460099024057133,54.15162015250569,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>7 Ingleborough Park Close</name>
+				<LookAt>
+					<longitude>-2.460187491937874</longitude>
+					<latitude>54.15159557919725</latitude>
+					<altitude>0</altitude>
+					<heading>0.8300875522517522</heading>
+					<tilt>29.65270767119631</tilt>
+					<range>165.5816375908042</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.460004509916959,54.1514866666434,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3AN</name>
+			<Placemark>
+				<name>Rock Cottage</name>
+				<LookAt>
+					<longitude>-2.458556133236728</longitude>
+					<latitude>54.15426193966118</latitude>
+					<altitude>0</altitude>
+					<heading>0.5467697692495999</heading>
+					<tilt>26.74935121661475</tilt>
+					<range>137.0347382655756</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.458669257608948,54.15506111388285,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tower House</name>
+				<LookAt>
+					<longitude>-2.45849596835606</longitude>
+					<latitude>54.15376966771987</latitude>
+					<altitude>0</altitude>
+					<heading>-1.430973500123291</heading>
+					<tilt>30.89416163139771</tilt>
+					<range>135.7690727975648</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.458527455823484,54.15381924286578,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Storrs Hall</name>
+				<LookAt>
+					<longitude>-2.458324124529872</longitude>
+					<latitude>54.15366709988633</latitude>
+					<altitude>0</altitude>
+					<heading>0.5487597425156016</heading>
+					<tilt>26.3719268228013</tilt>
+					<range>208.6079472000729</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.458481284512009,54.15368950148461,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Juno</name>
+				<LookAt>
+					<longitude>-2.457621383352342</longitude>
+					<latitude>54.15410742406525</latitude>
+					<altitude>0</altitude>
+					<heading>0.5493293767230135</heading>
+					<tilt>26.37188148240425</tilt>
+					<range>197.2435103466957</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.457862291308626,54.15423360063261,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Richmond Mews</name>
+				<LookAt>
+					<longitude>-2.458219129783614</longitude>
+					<latitude>54.15284122962153</latitude>
+					<altitude>0</altitude>
+					<heading>0.5488448575156839</heading>
+					<tilt>26.37219556334574</tilt>
+					<range>275.953562837823</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.459248244053676,54.1521756335839,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Storrs Dale</name>
+				<LookAt>
+					<longitude>-2.458322724232913</longitude>
+					<latitude>54.15368576500867</latitude>
+					<altitude>0</altitude>
+					<heading>0.5476689378905419</heading>
+					<tilt>26.59957496278413</tilt>
+					<range>188.8902729684161</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.458720331279021,54.15406742645833,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Storrs Dean</name>
+				<LookAt>
+					<longitude>-2.45849596835606</longitude>
+					<latitude>54.15376966771987</latitude>
+					<altitude>0</altitude>
+					<heading>-1.430973500123291</heading>
+					<tilt>30.89416163139771</tilt>
+					<range>135.7690727975648</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.458510394976648,54.15396234880925,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>1 Richmond House</name>
+				<LookAt>
+					<longitude>-2.458712509209458</longitude>
+					<latitude>54.15240257529692</latitude>
+					<altitude>0</altitude>
+					<heading>0.5473529988021881</heading>
+					<tilt>26.59950282072854</tilt>
+					<range>201.267221993073</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.45877131963246,54.15258444118516,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Richmond House</name>
+				<LookAt>
+					<longitude>-2.458712509209458</longitude>
+					<latitude>54.15240257529692</latitude>
+					<altitude>0</altitude>
+					<heading>0.5473529988021881</heading>
+					<tilt>26.59950282072854</tilt>
+					<range>201.267221993073</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.458670331006548,54.15248830485247,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Crina Bottom Fell Lane</name>
+				<LookAt>
+					<longitude>-2.426238760215774</longitude>
+					<latitude>54.15637069951736</latitude>
+					<altitude>0</altitude>
+					<heading>0.5301575877354156</heading>
+					<tilt>39.65921832886825</tilt>
+					<range>390.6968836005468</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.426474309521795,54.156778638143,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Storrs Hall Bungalow</name>
+				<LookAt>
+					<longitude>-2.458413461173394</longitude>
+					<latitude>54.15362517421001</latitude>
+					<altitude>0</altitude>
+					<heading>0.5495378583540046</heading>
+					<tilt>25.20050675694763</tilt>
+					<range>190.2082827044359</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.458325102652075,54.15380088683483,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cross Farm</name>
+				<LookAt>
+					<longitude>-2.4601518959467</longitude>
+					<latitude>54.15243185660101</latitude>
+					<altitude>0</altitude>
+					<heading>0.5303217221828293</heading>
+					<tilt>29.55335275062959</tilt>
+					<range>149.2578076475689</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.460130887768672,54.15253434771371,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3AQ</name>
+			<Placemark>
+				<name>Greengarth</name>
+				<LookAt>
+					<longitude>-2.464540089916755</longitude>
+					<latitude>54.15236309080559</latitude>
+					<altitude>0</altitude>
+					<heading>0.5267647557201887</heading>
+					<tilt>29.5534525718958</tilt>
+					<range>171.7894722944679</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.464507218560188,54.15259043502771,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Paradise Row 42 High Street</name>
+				<LookAt>
+					<longitude>-2.464711649772277</longitude>
+					<latitude>54.15264013939824</latitude>
+					<altitude>0</altitude>
+					<heading>0.5266257811868019</heading>
+					<tilt>29.90347323710282</tilt>
+					<range>107.1774087317387</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.464786645383098,54.15269915876595,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Green End Barn</name>
+				<LookAt>
+					<longitude>-2.464475964560979</longitude>
+					<latitude>54.15256513747846</latitude>
+					<altitude>0</altitude>
+					<heading>-1.435284248435911</heading>
+					<tilt>28.47035043289068</tilt>
+					<range>203.2981314172546</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.464120987927132,54.152610779998,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Green Ends Farm (?)</name>
+				<LookAt>
+					<longitude>-2.464475964560979</longitude>
+					<latitude>54.15256513747846</latitude>
+					<altitude>0</altitude>
+					<heading>-1.435284248435911</heading>
+					<tilt>28.47035043289068</tilt>
+					<range>203.2981314172546</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.464592765907874,54.15225254262471,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3AZ</name>
+			<Placemark>
+				<name>1 Highfield Cottages</name>
+				<LookAt>
+					<longitude>-2.465114632802492</longitude>
+					<latitude>54.15354495606319</latitude>
+					<altitude>0</altitude>
+					<heading>0.0005513925417558051</heading>
+					<tilt>27.29463503437114</tilt>
+					<range>95.37972961547371</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465364572804647,54.1536737048255,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Highfield Cottages</name>
+				<LookAt>
+					<longitude>-2.465114632802492</longitude>
+					<latitude>54.15354495606319</latitude>
+					<altitude>0</altitude>
+					<heading>0.0005513925417558051</heading>
+					<tilt>27.29463503437114</tilt>
+					<range>95.37972961547371</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465312361646141,54.15364250604534,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>3 Highfield Cottages</name>
+				<LookAt>
+					<longitude>-2.465114632802492</longitude>
+					<latitude>54.15354495606319</latitude>
+					<altitude>0</altitude>
+					<heading>0.0005513925417558051</heading>
+					<tilt>27.29463503437114</tilt>
+					<range>95.37972961547371</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465256745115709,54.15361111695042,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>4 Highfield Cottages</name>
+				<LookAt>
+					<longitude>-2.465114632802492</longitude>
+					<latitude>54.15354495606319</latitude>
+					<altitude>0</altitude>
+					<heading>0.0005513925417558051</heading>
+					<tilt>27.29463503437114</tilt>
+					<range>95.37972961547371</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465198167687731,54.1535829106745,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>5 Highfield Cottages</name>
+				<LookAt>
+					<longitude>-2.465114632802492</longitude>
+					<latitude>54.15354495606319</latitude>
+					<altitude>0</altitude>
+					<heading>0.0005513925417558051</heading>
+					<tilt>27.29463503437114</tilt>
+					<range>95.37972961547371</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.4651397995857,54.1535513082622,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3BA</name>
+			<Placemark>
+				<name>1 Low Demesne</name>
+				<LookAt>
+					<longitude>-2.468509895445268</longitude>
+					<latitude>54.14964865656593</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002219407971705029</heading>
+					<tilt>28.5585665524766</tilt>
+					<range>216.4089575900505</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468504157209441,54.14983404955859,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Low Demesne</name>
+				<LookAt>
+					<longitude>-2.468509895445268</longitude>
+					<latitude>54.14964865656593</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002219407971705029</heading>
+					<tilt>28.5585665524766</tilt>
+					<range>216.4089575900505</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468360560069413,54.1496735503746,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>3 Low Demesne</name>
+				<LookAt>
+					<longitude>-2.468509895445268</longitude>
+					<latitude>54.14964865656593</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002219407971705029</heading>
+					<tilt>28.5585665524766</tilt>
+					<range>216.4089575900505</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46825679150636,54.14951336656289,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>5 Low Demesne</name>
+				<LookAt>
+					<longitude>-2.467894714057727</longitude>
+					<latitude>54.14966849543354</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001720774083067531</heading>
+					<tilt>28.5585623052101</tilt>
+					<range>215.4198135278245</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.467710081821987,54.14967638507479,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>4 Low Demesne</name>
+				<LookAt>
+					<longitude>-2.467894714057727</longitude>
+					<latitude>54.14966849543354</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001720774083067531</heading>
+					<tilt>28.5585623052101</tilt>
+					<range>215.4198135278245</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.467997638526565,54.14962226782539,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Reid House Flat 21 (?)</name>
+				<LookAt>
+					<longitude>-2.468140677783663</longitude>
+					<latitude>54.1499348150823</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001920137863309536</heading>
+					<tilt>28.55856405824236</tilt>
+					<range>215.8280805765557</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468733404746924,54.15006987681307,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Reid House Flat 16 (?)</name>
+				<LookAt>
+					<longitude>-2.468140677783663</longitude>
+					<latitude>54.1499348150823</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001920137863309536</heading>
+					<tilt>28.55856405824236</tilt>
+					<range>215.8280805765557</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46867848785534,54.15002601025189,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3BB</name>
+			<Placemark>
+				<name>14 Featherbeck Close</name>
+				<LookAt>
+					<longitude>-2.468208132191613</longitude>
+					<latitude>54.1462131966553</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001974812393324145</heading>
+					<tilt>28.55856943327884</tilt>
+					<range>217.0798734024718</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468250957635534,54.1462619223996,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Featherbeck Close</name>
+				<LookAt>
+					<longitude>-2.468208132191613</longitude>
+					<latitude>54.1462131966553</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001974812393324145</heading>
+					<tilt>28.55856943327884</tilt>
+					<range>217.0798734024718</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468855559902795,54.14652725343454,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>4 Featherbeck Close</name>
+				<LookAt>
+					<longitude>-2.468208132191613</longitude>
+					<latitude>54.1462131966553</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001974812393324145</heading>
+					<tilt>28.55856943327884</tilt>
+					<range>217.0798734024718</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468730119099511,54.14655068147282,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>6 Featherbeck Close</name>
+				<LookAt>
+					<longitude>-2.468208132191613</longitude>
+					<latitude>54.1462131966553</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001974812393324145</heading>
+					<tilt>28.55856943327884</tilt>
+					<range>217.0798734024718</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468524521252164,54.1465381121428,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>8 Fetherbeck Close</name>
+				<LookAt>
+					<longitude>-2.468208132191613</longitude>
+					<latitude>54.1462131966553</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001974812393324145</heading>
+					<tilt>28.55856943327884</tilt>
+					<range>217.0798734024718</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468471626029691,54.14645584356826,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>10 Featherbeck Close</name>
+				<LookAt>
+					<longitude>-2.468208132191613</longitude>
+					<latitude>54.1462131966553</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001974812393324145</heading>
+					<tilt>28.55856943327884</tilt>
+					<range>217.0798734024718</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468423256868875,54.14635055882688,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>12 Featherbeck Close</name>
+				<LookAt>
+					<longitude>-2.468208132191613</longitude>
+					<latitude>54.1462131966553</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001974812393324145</heading>
+					<tilt>28.55856943327884</tilt>
+					<range>217.0798734024718</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468345827189396,54.14631353980802,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>16 Featherbeck Close</name>
+				<LookAt>
+					<longitude>-2.468208132191613</longitude>
+					<latitude>54.1462131966553</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001974812393324145</heading>
+					<tilt>28.55856943327884</tilt>
+					<range>217.0798734024718</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468195276632386,54.14620698214668,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3BD</name>
+			<Placemark>
+				<name>Ash Green House</name>
+				<LookAt>
+					<longitude>-2.465435327129996</longitude>
+					<latitude>54.15277363101468</latitude>
+					<altitude>0</altitude>
+					<heading>0.0002331847066447622</heading>
+					<tilt>29.75131825332003</tilt>
+					<range>247.3515100882179</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465603859898347,54.15284629553631,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hillcrest</name>
+				<LookAt>
+					<longitude>-2.465702086525049</longitude>
+					<latitude>54.15246748594118</latitude>
+					<altitude>0</altitude>
+					<heading>1.402898046731876e-005</heading>
+					<tilt>30.00024154237531</tilt>
+					<range>170.9379181320636</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46550937940172,54.15243092789491,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Linton Cottage</name>
+				<LookAt>
+					<longitude>-2.465702086525049</longitude>
+					<latitude>54.15246748594118</latitude>
+					<altitude>0</altitude>
+					<heading>1.402898046731876e-005</heading>
+					<tilt>30.00024154237531</tilt>
+					<range>170.9379181320636</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46555770797954,54.15287297869638,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>White Hall</name>
+				<LookAt>
+					<longitude>-2.465702086525049</longitude>
+					<latitude>54.15246748594118</latitude>
+					<altitude>0</altitude>
+					<heading>1.402898046731876e-005</heading>
+					<tilt>30.00024154237531</tilt>
+					<range>170.9379181320636</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465519712766194,54.15292299843401,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>13 Uppergate</name>
+				<LookAt>
+					<longitude>-2.465766372009225</longitude>
+					<latitude>54.15261182684355</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0002147148618405769</heading>
+					<tilt>30.17764897626296</tilt>
+					<range>96.7729138384375</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465807759339858,54.15259040604006,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>1 Myrtle Cottages</name>
+				<LookAt>
+					<longitude>-2.465857822526564</longitude>
+					<latitude>54.1524359498869</latitude>
+					<altitude>0</altitude>
+					<heading>-0.000112207347776766</heading>
+					<tilt>30.00024492978524</tilt>
+					<range>171.692173714073</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465678375826904,54.15274888297067,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Myrtle Cottages</name>
+				<LookAt>
+					<longitude>-2.465857822526564</longitude>
+					<latitude>54.1524359498869</latitude>
+					<altitude>0</altitude>
+					<heading>-0.000112207347776766</heading>
+					<tilt>30.00024492978524</tilt>
+					<range>171.692173714073</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465718456258388,54.15269567004104,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Edenhill</name>
+				<LookAt>
+					<longitude>-2.465857822526564</longitude>
+					<latitude>54.1524359498869</latitude>
+					<altitude>0</altitude>
+					<heading>-0.000112207347776766</heading>
+					<tilt>30.00024492978524</tilt>
+					<range>171.692173714073</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46583121646422,54.15315319282836,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Uppergate</name>
+				<LookAt>
+					<longitude>-2.465547005762397</longitude>
+					<latitude>54.15231076176787</latitude>
+					<altitude>0</altitude>
+					<heading>0.0001389676701279161</heading>
+					<tilt>30.00009462387435</tilt>
+					<range>137.9639454601879</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46563054450582,54.15240337571111,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>15 Uppergate</name>
+				<LookAt>
+					<longitude>-2.465857822526564</longitude>
+					<latitude>54.1524359498869</latitude>
+					<altitude>0</altitude>
+					<heading>-0.000112207347776766</heading>
+					<tilt>30.00024492978524</tilt>
+					<range>171.692173714073</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465754366558342,54.15264373438967,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>6 Uppergate (?)</name>
+				<LookAt>
+					<longitude>-2.465857822526564</longitude>
+					<latitude>54.1524359498869</latitude>
+					<altitude>0</altitude>
+					<heading>-0.000112207347776766</heading>
+					<tilt>30.00024492978524</tilt>
+					<range>171.692173714073</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465436897406974,54.15248748289308,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>7 Uppergate</name>
+				<LookAt>
+					<longitude>-2.465857822526564</longitude>
+					<latitude>54.1524359498869</latitude>
+					<altitude>0</altitude>
+					<heading>-0.000112207347776766</heading>
+					<tilt>30.00024492978524</tilt>
+					<range>171.692173714073</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.466039711025556,54.15237518837621,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>9 Uppergate</name>
+				<LookAt>
+					<longitude>-2.465955397672587</longitude>
+					<latitude>54.15241242150093</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0001915025277877565</heading>
+					<tilt>29.99995668665419</tilt>
+					<range>107.3464941529994</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465998499209656,54.15242700543615,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>11 Uppergate</name>
+				<LookAt>
+					<longitude>-2.465766372009225</longitude>
+					<latitude>54.15261182684355</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0002147148618405769</heading>
+					<tilt>30.17764897626296</tilt>
+					<range>96.7729138384375</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465960823819449,54.15248593096648,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3BE</name>
+			<Placemark>
+				<name>1 Norcot Rise</name>
+				<LookAt>
+					<longitude>-2.465547005762397</longitude>
+					<latitude>54.15231076176787</latitude>
+					<altitude>0</altitude>
+					<heading>0.0001389676701279161</heading>
+					<tilt>30.00009462387435</tilt>
+					<range>137.9639454601879</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465704213360876,54.1523739870186,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Norcot Rise</name>
+				<LookAt>
+					<longitude>-2.465547005762397</longitude>
+					<latitude>54.15231076176787</latitude>
+					<altitude>0</altitude>
+					<heading>0.0001389676701279161</heading>
+					<tilt>30.00009462387435</tilt>
+					<range>137.9639454601879</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465744530308657,54.15233176463726,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>3 Norcot Rise</name>
+				<LookAt>
+					<longitude>-2.465547005762397</longitude>
+					<latitude>54.15231076176787</latitude>
+					<altitude>0</altitude>
+					<heading>0.0001389676701279161</heading>
+					<tilt>30.00009462387435</tilt>
+					<range>137.9639454601879</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465799605086735,54.15228619842633,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3BF</name>
+			<Placemark>
+				<name>1 Manor Close</name>
+				<LookAt>
+					<longitude>-2.465227614472282</longitude>
+					<latitude>54.14960041343871</latitude>
+					<altitude>0</altitude>
+					<heading>0.0003978589244485596</heading>
+					<tilt>30.00012855115375</tilt>
+					<range>145.5183200202025</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465081946017194,54.14967794814854,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Manor Close</name>
+				<LookAt>
+					<longitude>-2.465227614472282</longitude>
+					<latitude>54.14960041343871</latitude>
+					<altitude>0</altitude>
+					<heading>0.0003978589244485596</heading>
+					<tilt>30.00012855115375</tilt>
+					<range>145.5183200202025</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465047915995023,54.14962442942196,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>3 Manor Close</name>
+				<LookAt>
+					<longitude>-2.465227614472282</longitude>
+					<latitude>54.14960041343871</latitude>
+					<altitude>0</altitude>
+					<heading>0.0003978589244485596</heading>
+					<tilt>30.00012855115375</tilt>
+					<range>145.5183200202025</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46498105181599,54.14955320018349,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>4 Manor Close</name>
+				<LookAt>
+					<longitude>-2.465227614472282</longitude>
+					<latitude>54.14960041343871</latitude>
+					<altitude>0</altitude>
+					<heading>0.0003978589244485596</heading>
+					<tilt>30.00012855115375</tilt>
+					<range>145.5183200202025</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.464949087701275,54.14949759770349,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>5 Manor Close</name>
+				<LookAt>
+					<longitude>-2.465227614472282</longitude>
+					<latitude>54.14960041343871</latitude>
+					<altitude>0</altitude>
+					<heading>0.0003978589244485596</heading>
+					<tilt>30.00012855115375</tilt>
+					<range>145.5183200202025</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.464865212309083,54.14937666107104,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>6 Manor Close</name>
+				<LookAt>
+					<longitude>-2.465227614472282</longitude>
+					<latitude>54.14960041343871</latitude>
+					<altitude>0</altitude>
+					<heading>0.0003978589244485596</heading>
+					<tilt>30.00012855115375</tilt>
+					<range>145.5183200202025</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.464803404173404,54.1493284722432,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>7 Manor Close</name>
+				<LookAt>
+					<longitude>-2.465227614472282</longitude>
+					<latitude>54.14960041343871</latitude>
+					<altitude>0</altitude>
+					<heading>0.0003978589244485596</heading>
+					<tilt>30.00012855115375</tilt>
+					<range>145.5183200202025</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.464606611109249,54.14924745688351,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>8 Manor Close</name>
+				<LookAt>
+					<longitude>-2.465227614472282</longitude>
+					<latitude>54.14960041343871</latitude>
+					<altitude>0</altitude>
+					<heading>0.0003978589244485596</heading>
+					<tilt>30.00012855115375</tilt>
+					<range>145.5183200202025</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.464467715687585,54.14926756287559,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>9 Manor Close</name>
+				<LookAt>
+					<longitude>-2.465227614472282</longitude>
+					<latitude>54.14960041343871</latitude>
+					<altitude>0</altitude>
+					<heading>0.0003978589244485596</heading>
+					<tilt>30.00012855115375</tilt>
+					<range>145.5183200202025</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.464304634955856,54.14936109336845,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>10 Manor Close</name>
+				<LookAt>
+					<longitude>-2.464144022283115</longitude>
+					<latitude>54.14943532170441</latitude>
+					<altitude>0</altitude>
+					<heading>0.001276568905289112</heading>
+					<tilt>29.99999246217252</tilt>
+					<range>115.1003077828722</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.464325432483307,54.14941236600774,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>11 Manor Close</name>
+				<LookAt>
+					<longitude>-2.465227614472282</longitude>
+					<latitude>54.14960041343871</latitude>
+					<altitude>0</altitude>
+					<heading>0.0003978589244485596</heading>
+					<tilt>30.00012855115375</tilt>
+					<range>145.5183200202025</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.464287756727871,54.14945414439917,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>12 Manor Close</name>
+				<LookAt>
+					<longitude>-2.465227614472282</longitude>
+					<latitude>54.14960041343871</latitude>
+					<altitude>0</altitude>
+					<heading>0.0003978589244485596</heading>
+					<tilt>30.00012855115375</tilt>
+					<range>145.5183200202025</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.464387481905417,54.14963434907467,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>13 Manor Close</name>
+				<LookAt>
+					<longitude>-2.465227614472282</longitude>
+					<latitude>54.14960041343871</latitude>
+					<altitude>0</altitude>
+					<heading>0.0003978589244485596</heading>
+					<tilt>30.00012855115375</tilt>
+					<range>145.5183200202025</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.464490198069991,54.14966574917817,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>14 Manor Close</name>
+				<LookAt>
+					<longitude>-2.465227614472282</longitude>
+					<latitude>54.14960041343871</latitude>
+					<altitude>0</altitude>
+					<heading>0.0003978589244485596</heading>
+					<tilt>30.00012855115375</tilt>
+					<range>145.5183200202025</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.464619503665841,54.14972602674119,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>15 Manor Close</name>
+				<LookAt>
+					<longitude>-2.465227614472282</longitude>
+					<latitude>54.14960041343871</latitude>
+					<altitude>0</altitude>
+					<heading>0.0003978589244485596</heading>
+					<tilt>30.00012855115375</tilt>
+					<range>145.5183200202025</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.464651068164386,54.14977967054419,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3BG</name>
+			<Placemark>
+				<name>Bower Cottage</name>
+				<LookAt>
+					<longitude>-2.465992048855465</longitude>
+					<latitude>54.15212448887366</latitude>
+					<altitude>0</altitude>
+					<heading>4.125339719627851e-005</heading>
+					<tilt>32.43713387562794</tilt>
+					<range>214.7554768691493</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465870683041937,54.15223162110568,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Honey House</name>
+				<LookAt>
+					<longitude>-2.465933991606887</longitude>
+					<latitude>54.15194361498072</latitude>
+					<altitude>0</altitude>
+					<heading>0.0005466616843889985</heading>
+					<tilt>19.75353598587855</tilt>
+					<range>148.3378192684477</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.466235091511366,54.15231097656381,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Spring Cottage</name>
+				<LookAt>
+					<longitude>-2.465992048855465</longitude>
+					<latitude>54.15212448887366</latitude>
+					<altitude>0</altitude>
+					<heading>4.125339719627851e-005</heading>
+					<tilt>32.43713387562794</tilt>
+					<range>214.7554768691493</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.466096729086339,54.15189494432486,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bower Cottage 2 (?)</name>
+				<LookAt>
+					<longitude>-2.465992048855465</longitude>
+					<latitude>54.15212448887366</latitude>
+					<altitude>0</altitude>
+					<heading>4.125339719627851e-005</heading>
+					<tilt>32.43713387562794</tilt>
+					<range>214.7554768691493</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.465810195885473,54.15216771668955,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3BH</name>
+			<Placemark>
+				<name>Ash Lea</name>
+				<LookAt>
+					<longitude>-2.466983070451112</longitude>
+					<latitude>54.15161711347486</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0003036931614791251</heading>
+					<tilt>19.75354862366715</tilt>
+					<range>152.5009397890385</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.467015558889042,54.15164186670523,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mount View</name>
+				<LookAt>
+					<longitude>-2.466983070451112</longitude>
+					<latitude>54.15161711347486</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0003036931614791251</heading>
+					<tilt>19.75354862366715</tilt>
+					<range>152.5009397890385</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.467083581799536,54.15154752876801,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3BJ</name>
+			<Placemark>
+				<name>The Croft</name>
+				<LookAt>
+					<longitude>-2.467202493744887</longitude>
+					<latitude>54.15121466856209</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0004815490894224166</heading>
+					<tilt>19.75355162967813</tilt>
+					<range>153.4911940828233</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.467128968579041,54.15090473727652,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>1 Railway Cottages</name>
+				<LookAt>
+					<longitude>-2.467202493744887</longitude>
+					<latitude>54.15121466856209</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0004815490894224166</heading>
+					<tilt>19.75355162967813</tilt>
+					<range>153.4911940828233</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.467068691800773,54.15147635833274,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Railway Cottages</name>
+				<LookAt>
+					<longitude>-2.467202493744887</longitude>
+					<latitude>54.15121466856209</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0004815490894224166</heading>
+					<tilt>19.75355162967813</tilt>
+					<range>153.4911940828233</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.467086071276941,54.15144404736584,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>3 Railway Cottages</name>
+				<LookAt>
+					<longitude>-2.467202493744887</longitude>
+					<latitude>54.15121466856209</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0004815490894224166</heading>
+					<tilt>19.75355162967813</tilt>
+					<range>153.4911940828233</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.467111613956402,54.15139993107145,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Panwell Cottage</name>
+				<LookAt>
+					<longitude>-2.466468868011784</longitude>
+					<latitude>54.15193719702234</latitude>
+					<altitude>0</altitude>
+					<heading>0.0001131036515441852</heading>
+					<tilt>19.75354018455323</tilt>
+					<range>149.7209496857734</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.466028436263552,54.15208487683185,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ambulance Station</name>
+				<LookAt>
+					<longitude>-2.467245889704083</longitude>
+					<latitude>54.15128962348697</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0009750758533905847</heading>
+					<tilt>32.43640832954498</tilt>
+					<range>221.780897595031</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46658830759256,54.15154417075178,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3BL</name>
+			<Placemark>
+				<name>1 Burnmoor View</name>
+				<LookAt>
+					<longitude>-2.469952211240874</longitude>
+					<latitude>54.15077567241971</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003066684294235261</heading>
+					<tilt>25.17588923412903</tilt>
+					<range>239.8025130253274</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470593653351871,54.15064007654575,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Burnmoor View</name>
+				<LookAt>
+					<longitude>-2.469952211240874</longitude>
+					<latitude>54.15077567241971</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003066684294235261</heading>
+					<tilt>25.17588923412903</tilt>
+					<range>239.8025130253274</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470501159445707,54.15070528627388,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>3 Burnmoor View</name>
+				<LookAt>
+					<longitude>-2.469255798364058</longitude>
+					<latitude>54.15082634790327</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002145639499338791</heading>
+					<tilt>19.75452656788806</tilt>
+					<range>259.9533678944455</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469973883806407,54.15077663461768,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>4 Burnmoor View</name>
+				<LookAt>
+					<longitude>-2.469255798364058</longitude>
+					<latitude>54.15082634790327</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002145639499338791</heading>
+					<tilt>19.75452656788806</tilt>
+					<range>259.9533678944455</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469861879828144,54.15070402898145,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>5 Burnmoor View</name>
+				<LookAt>
+					<longitude>-2.469255798364058</longitude>
+					<latitude>54.15082634790327</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002145639499338791</heading>
+					<tilt>19.75452656788806</tilt>
+					<range>259.9533678944455</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469596313537426,54.15070299358995,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>6 Burnmoor View</name>
+				<LookAt>
+					<longitude>-2.469255798364058</longitude>
+					<latitude>54.15082634790327</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002145639499338791</heading>
+					<tilt>19.75452656788806</tilt>
+					<range>259.9533678944455</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469446321311857,54.15077704562257,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>7 Burnmoor View</name>
+				<LookAt>
+					<longitude>-2.469197384160204</longitude>
+					<latitude>54.15079182263251</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002454847173150555</heading>
+					<tilt>25.17556743760471</tilt>
+					<range>184.7591039780515</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469205324682404,54.15084596511953,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>8 Burnmoor View</name>
+				<LookAt>
+					<longitude>-2.469197384160204</longitude>
+					<latitude>54.15079182263251</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002454847173150555</heading>
+					<tilt>25.17556743760471</tilt>
+					<range>184.7591039780515</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469119806799799,54.15083921287529,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>9 Burnmoor View</name>
+				<LookAt>
+					<longitude>-2.469197384160204</longitude>
+					<latitude>54.15079182263251</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002454847173150555</heading>
+					<tilt>25.17556743760471</tilt>
+					<range>184.7591039780515</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46901872162228,54.15083649838548,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>10 Burnmoor View</name>
+				<LookAt>
+					<longitude>-2.469197384160204</longitude>
+					<latitude>54.15079182263251</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002454847173150555</heading>
+					<tilt>25.17556743760471</tilt>
+					<range>184.7591039780515</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468918056867958,54.1508317400738,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>11 Burnmoor View</name>
+				<LookAt>
+					<longitude>-2.469197384160204</longitude>
+					<latitude>54.15079182263251</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002454847173150555</heading>
+					<tilt>25.17556743760471</tilt>
+					<range>184.7591039780515</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468619126255525,54.15083391031772,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>12 Burnmoor View</name>
+				<LookAt>
+					<longitude>-2.469197384160204</longitude>
+					<latitude>54.15079182263251</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002454847173150555</heading>
+					<tilt>25.17556743760471</tilt>
+					<range>184.7591039780515</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468558341054252,54.15090228078151,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>13 Burnmoor View</name>
+				<LookAt>
+					<longitude>-2.468090410075627</longitude>
+					<latitude>54.1509818318746</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001557582831973384</heading>
+					<tilt>25.17587615308194</tilt>
+					<range>236.3789047252996</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.467902844723168,54.15091128234361,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>14 Burnmoor View</name>
+				<LookAt>
+					<longitude>-2.468090410075627</longitude>
+					<latitude>54.1509818318746</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001557582831973384</heading>
+					<tilt>25.17587615308194</tilt>
+					<range>236.3789047252996</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.467777808096425,54.1509584615781,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>15 Burnmoor View</name>
+				<LookAt>
+					<longitude>-2.468090410075627</longitude>
+					<latitude>54.1509818318746</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001557582831973384</heading>
+					<tilt>25.17587615308194</tilt>
+					<range>236.3789047252996</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.467662987932149,54.15100152001116,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>16 Burnmoor View</name>
+				<LookAt>
+					<longitude>-2.468090410075627</longitude>
+					<latitude>54.1509818318746</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001557582831973384</heading>
+					<tilt>25.17587615308194</tilt>
+					<range>236.3789047252996</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.467560618867274,54.15102430224508,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>17 Burnmoor View</name>
+				<LookAt>
+					<longitude>-2.468090410075627</longitude>
+					<latitude>54.1509818318746</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001557582831973384</heading>
+					<tilt>25.17587615308194</tilt>
+					<range>236.3789047252996</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.467449863459819,54.1510763722525,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3BN</name>
+			<Placemark>
+				<name>Ingleton Hall</name>
+				<LookAt>
+					<longitude>-2.468861474023548</longitude>
+					<latitude>54.15017860226601</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002284311793182409</heading>
+					<tilt>32.43474720249641</tilt>
+					<range>192.0118030702824</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468239164979992,54.15023036180811,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3BP</name>
+			<Placemark>
+				<name>101 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.470170053873977</longitude>
+					<latitude>54.1509218258776</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003344993202212383</heading>
+					<tilt>32.43399057400954</tilt>
+					<range>192.5455991900106</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469690250757469,54.15135838797986,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>103 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.470170053873977</longitude>
+					<latitude>54.1509218258776</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003344993202212383</heading>
+					<tilt>32.43399057400954</tilt>
+					<range>192.5455991900106</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46958021320412,54.15138276761147,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>102 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.470170053873977</longitude>
+					<latitude>54.1509218258776</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003344993202212383</heading>
+					<tilt>32.43399057400954</tilt>
+					<range>192.5455991900106</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469952707342624,54.15139312110261,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>104 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.47011705294666</longitude>
+					<latitude>54.15108696370744</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003213019462821721</heading>
+					<tilt>26.27656213842072</tilt>
+					<range>131.1084670372057</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470033399381944,54.15143840778635,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>105 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.47011705294666</longitude>
+					<latitude>54.15108696370744</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003213019462821721</heading>
+					<tilt>26.27656213842072</tilt>
+					<range>131.1084670372057</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469482987750013,54.15138466360511,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>106 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.47011705294666</longitude>
+					<latitude>54.15108696370744</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003213019462821721</heading>
+					<tilt>26.27656213842072</tilt>
+					<range>131.1084670372057</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470037654089881,54.15156596080628,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>108 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.47011705294666</longitude>
+					<latitude>54.15108696370744</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003213019462821721</heading>
+					<tilt>26.27656213842072</tilt>
+					<range>131.1084670372057</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469965192186713,54.15161628722579,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>110 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.47011705294666</longitude>
+					<latitude>54.15108696370744</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003213019462821721</heading>
+					<tilt>26.27656213842072</tilt>
+					<range>131.1084670372057</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469741185492029,54.15162302438455,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>112 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.47011705294666</longitude>
+					<latitude>54.15108696370744</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003213019462821721</heading>
+					<tilt>26.27656213842072</tilt>
+					<range>131.1084670372057</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469622576946344,54.15157342846392,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3BQ</name>
+			<Placemark>
+				<name>1 Morton Terrace</name>
+				<LookAt>
+					<longitude>-2.466979873450088</longitude>
+					<latitude>54.15178378120034</latitude>
+					<altitude>0</altitude>
+					<heading>-0.000719300074822979</heading>
+					<tilt>28.52825688382083</tilt>
+					<range>161.8183821208899</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.466672361386984,54.15190540651369,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Morton Terrace</name>
+				<LookAt>
+					<longitude>-2.466979873450088</longitude>
+					<latitude>54.15178378120034</latitude>
+					<altitude>0</altitude>
+					<heading>-0.000719300074822979</heading>
+					<tilt>28.52825688382083</tilt>
+					<range>161.8183821208899</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.466712318506228,54.15186430897072,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>3 Morton Terrace</name>
+				<LookAt>
+					<longitude>-2.466979873450088</longitude>
+					<latitude>54.15178378120034</latitude>
+					<altitude>0</altitude>
+					<heading>-0.000719300074822979</heading>
+					<tilt>28.52825688382083</tilt>
+					<range>161.8183821208899</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.466751123089525,54.15182778340892,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>4 Morton Terrace</name>
+				<LookAt>
+					<longitude>-2.466979873450088</longitude>
+					<latitude>54.15178378120034</latitude>
+					<altitude>0</altitude>
+					<heading>-0.000719300074822979</heading>
+					<tilt>28.52825688382083</tilt>
+					<range>161.8183821208899</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.466786191545744,54.1517955546702,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>5 Morton Terrace</name>
+				<LookAt>
+					<longitude>-2.466979873450088</longitude>
+					<latitude>54.15178378120034</latitude>
+					<altitude>0</altitude>
+					<heading>-0.000719300074822979</heading>
+					<tilt>28.52825688382083</tilt>
+					<range>161.8183821208899</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.466823421194677,54.15176217787642,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>6 Morton Terrace</name>
+				<LookAt>
+					<longitude>-2.466979873450088</longitude>
+					<latitude>54.15178378120034</latitude>
+					<altitude>0</altitude>
+					<heading>-0.000719300074822979</heading>
+					<tilt>28.52825688382083</tilt>
+					<range>161.8183821208899</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.466857504841582,54.15172255849389,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3BS</name>
+			<Placemark>
+				<name>1 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.46996141383665</longitude>
+					<latitude>54.15084775577401</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003164107494393562</heading>
+					<tilt>30.00020400761594</tilt>
+					<range>168.2984726704642</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470447381822912,54.1508523467553,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>11 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.46996141383665</longitude>
+					<latitude>54.15084775577401</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003164107494393562</heading>
+					<tilt>30.00020400761594</tilt>
+					<range>168.2984726704642</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470370034445669,54.15127572987519,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>13 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.46996141383665</longitude>
+					<latitude>54.15084775577401</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003164107494393562</heading>
+					<tilt>30.00020400761594</tilt>
+					<range>168.2984726704642</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470474948936784,54.15141029074306,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>15 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.46996141383665</longitude>
+					<latitude>54.15084775577401</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003164107494393562</heading>
+					<tilt>30.00020400761594</tilt>
+					<range>168.2984726704642</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470496120425966,54.15146071214474,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>17 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.46996141383665</longitude>
+					<latitude>54.15084775577401</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003164107494393562</heading>
+					<tilt>30.00020400761594</tilt>
+					<range>168.2984726704642</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470503928134585,54.15156149792813,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>19 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.46996141383665</longitude>
+					<latitude>54.15084775577401</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003164107494393562</heading>
+					<tilt>30.00020400761594</tilt>
+					<range>168.2984726704642</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470496136256712,54.15163296039852,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>21 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.46996141383665</longitude>
+					<latitude>54.15084775577401</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003164107494393562</heading>
+					<tilt>30.00020400761594</tilt>
+					<range>168.2984726704642</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.4704197045608,54.15172508677725,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>23 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.46996141383665</longitude>
+					<latitude>54.15084775577401</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003164107494393562</heading>
+					<tilt>30.00020400761594</tilt>
+					<range>168.2984726704642</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470364642299909,54.15176708693196,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>15 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.470177203436229</longitude>
+					<latitude>54.15179929132589</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003339179017928306</heading>
+					<tilt>29.68161463889997</tilt>
+					<range>134.9357816611341</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470201715868453,54.15184902780381,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>27 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.470177203436229</longitude>
+					<latitude>54.15179929132589</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003339179017928306</heading>
+					<tilt>29.68161463889997</tilt>
+					<range>134.9357816611341</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470117245681778,54.15187427283954,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>29 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.470047854189176</longitude>
+					<latitude>54.15161962626031</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003234331880372922</heading>
+					<tilt>29.68161308338592</tilt>
+					<range>134.5860536198501</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469948288493817,54.15188987322184,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>3 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.46996141383665</longitude>
+					<latitude>54.15084775577401</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003164107494393562</heading>
+					<tilt>30.00020400761594</tilt>
+					<range>168.2984726704642</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470452627079661,54.15092326626467,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>31 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.46996141383665</longitude>
+					<latitude>54.15084775577401</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003164107494393562</heading>
+					<tilt>30.00020400761594</tilt>
+					<range>168.2984726704642</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469807947071784,54.15188620654051,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>33 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.470168153661919</longitude>
+					<latitude>54.15128823469328</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003331686115552148</heading>
+					<tilt>30.00019949139985</tilt>
+					<range>167.2928797828953</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469593298144761,54.1518485730987,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>35 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.470168153661919</longitude>
+					<latitude>54.15128823469328</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003331686115552148</heading>
+					<tilt>30.00019949139985</tilt>
+					<range>167.2928797828953</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469534076265351,54.15182670391159,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>37 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.470168153661919</longitude>
+					<latitude>54.15128823469328</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003331686115552148</heading>
+					<tilt>30.00019949139985</tilt>
+					<range>167.2928797828953</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46943683788862,54.15178659637154,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>39 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.470168153661919</longitude>
+					<latitude>54.15128823469328</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003331686115552148</heading>
+					<tilt>30.00019949139985</tilt>
+					<range>167.2928797828953</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46933460571904,54.15173734586903,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>41 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.469458235204229</longitude>
+					<latitude>54.15130016671556</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002758351677713032</heading>
+					<tilt>30.00035039603756</tilt>
+					<range>207.7896332293223</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469167083174264,54.15167746958829,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>43 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.469458235204229</longitude>
+					<latitude>54.15130016671556</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002758351677713032</heading>
+					<tilt>30.00035039603756</tilt>
+					<range>207.7896332293223</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469097930201876,54.15163167845283,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>45 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.469458235204229</longitude>
+					<latitude>54.15130016671556</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002758351677713032</heading>
+					<tilt>30.00035039603756</tilt>
+					<range>207.7896332293223</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469014357826586,54.1515951089531,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>47 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.469458235204229</longitude>
+					<latitude>54.15130016671556</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002758351677713032</heading>
+					<tilt>30.00035039603756</tilt>
+					<range>207.7896332293223</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468920061605954,54.15153809116562,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>49 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.469454554548289</longitude>
+					<latitude>54.151302662362</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002755368319931799</heading>
+					<tilt>30.00035033041718</tilt>
+					<range>207.7750314200302</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468778574629179,54.1514117313426,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>5 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.470073974141227</longitude>
+					<latitude>54.15129359076233</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003257446818355933</heading>
+					<tilt>30.00035515106075</tilt>
+					<range>208.8483971207469</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470372599651157,54.15106128109285,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>51 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.469474154032834</longitude>
+					<latitude>54.15141176728498</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002771254975043562</heading>
+					<tilt>30.00034882879867</tilt>
+					<range>207.4406802591898</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468675051985412,54.15139308180353,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>53 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.469474154032834</longitude>
+					<latitude>54.15141176728498</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002771254975043562</heading>
+					<tilt>30.00034882879867</tilt>
+					<range>207.4406802591898</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468538793973588,54.15135548437628,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>55 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.469474154032834</longitude>
+					<latitude>54.15141176728498</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002771254975043562</heading>
+					<tilt>30.00034882879867</tilt>
+					<range>207.4406802591898</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46844794633065,54.15133681822725,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>57 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.46889715417703</longitude>
+					<latitude>54.15127471604793</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002303560780853304</heading>
+					<tilt>30.00034653846753</tilt>
+					<range>206.9307044962976</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468290700658277,54.15127603621625,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>59 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.46889715417703</longitude>
+					<latitude>54.15127471604793</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002303560780853304</heading>
+					<tilt>30.00034653846753</tilt>
+					<range>206.9307044962976</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46822651027217,54.15122494687221,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>61 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.46889715417703</longitude>
+					<latitude>54.15127471604793</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002303560780853304</heading>
+					<tilt>30.00034653846753</tilt>
+					<range>206.9307044962976</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468113407244267,54.1511420205128,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>63 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.46889715417703</longitude>
+					<latitude>54.15127471604793</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002303560780853304</heading>
+					<tilt>30.00034653846753</tilt>
+					<range>206.9307044962976</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468073129614345,54.15108193832667,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>7 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.470244006459782</longitude>
+					<latitude>54.15119601905993</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003395269509158823</heading>
+					<tilt>30.00035791215978</tilt>
+					<range>209.4631989441413</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470308490229696,54.15112334326565,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>9 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.470244006459782</longitude>
+					<latitude>54.15119601905993</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003395269509158823</heading>
+					<tilt>30.00035791215978</tilt>
+					<range>209.4631989441413</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470306858895098,54.15123698259054,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>11a Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.470712997522147</longitude>
+					<latitude>54.15114806613344</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003755924646874259</heading>
+					<tilt>27.67326148229434</tilt>
+					<range>91.76142663318323</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470774013986019,54.15113306791313,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>11b Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.470712997522147</longitude>
+					<latitude>54.15114806613344</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003755924646874259</heading>
+					<tilt>27.67326148229434</tilt>
+					<range>91.76142663318323</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470760805758138,54.15115960462536,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>11c Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.470712997522147</longitude>
+					<latitude>54.15114806613344</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003755924646874259</heading>
+					<tilt>27.67326148229434</tilt>
+					<range>91.76142663318323</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470748775504545,54.1511858815389,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>11d Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.470712997522147</longitude>
+					<latitude>54.15114806613344</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003755924646874259</heading>
+					<tilt>27.67326148229434</tilt>
+					<range>91.76142663318323</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470736394819857,54.15121292377665,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>11e Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.470712997522147</longitude>
+					<latitude>54.15114806613344</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003755924646874259</heading>
+					<tilt>27.67326148229434</tilt>
+					<range>91.76142663318323</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470826865835126,54.15118490514091,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>11f Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.470712997522147</longitude>
+					<latitude>54.15114806613344</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003755924646874259</heading>
+					<tilt>27.67326148229434</tilt>
+					<range>91.76142663318323</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470807898627841,54.15121962691978,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3BT</name>
+			<Placemark>
+				<name>Bow Fell</name>
+				<LookAt>
+					<longitude>-2.471247002171138</longitude>
+					<latitude>54.15052737609813</latitude>
+					<altitude>0</altitude>
+					<heading>-0.004188792823079063</heading>
+					<tilt>27.67353045694015</tilt>
+					<range>217.4901951879342</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.471067160273654,54.15039590534326,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mayfield</name>
+				<LookAt>
+					<longitude>-2.471247002171138</longitude>
+					<latitude>54.15052737609813</latitude>
+					<altitude>0</altitude>
+					<heading>-0.004188792823079063</heading>
+					<tilt>27.67353045694015</tilt>
+					<range>217.4901951879342</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.471495851092596,54.15008014123877,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>North Yorkshire Police</name>
+				<LookAt>
+					<longitude>-2.471247002171138</longitude>
+					<latitude>54.15052737609813</latitude>
+					<altitude>0</altitude>
+					<heading>-0.004188792823079063</heading>
+					<tilt>27.67353045694015</tilt>
+					<range>217.4901951879342</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470846839684151,54.15050537693864,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The i-Centre</name>
+				<LookAt>
+					<longitude>-2.471342165990072</longitude>
+					<latitude>54.14989072289634</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00426599003933059</heading>
+					<tilt>27.67353960485486</tilt>
+					<range>280.8346331999697</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.471320825523808,54.14987033468227,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Seasons Cakes</name>
+				<LookAt>
+					<longitude>-2.471342165990072</longitude>
+					<latitude>54.14989072289634</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00426599003933059</heading>
+					<tilt>27.67353960485486</tilt>
+					<range>280.8346331999697</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470789970645233,54.15011936282815,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Red Hot Pixels</name>
+				<LookAt>
+					<longitude>-2.471931045914706</longitude>
+					<latitude>54.14960576192006</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00474330564902932</heading>
+					<tilt>27.67354565589182</tilt>
+					<range>282.2851584957166</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.47145942180582,54.14973894921788,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>One Fine Day</name>
+				<LookAt>
+					<longitude>-2.471931045914706</longitude>
+					<latitude>54.14960576192006</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00474330564902932</heading>
+					<tilt>27.67354565589182</tilt>
+					<range>282.2851584957166</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.471333649721672,54.14963790956876,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Peak Fitness</name>
+				<LookAt>
+					<longitude>-2.471931045914706</longitude>
+					<latitude>54.14960576192006</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00474330564902932</heading>
+					<tilt>27.67354565589182</tilt>
+					<range>282.2851584957166</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.471196675826656,54.14955266748991,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kidz Day Nursery</name>
+				<LookAt>
+					<longitude>-2.471931045914706</longitude>
+					<latitude>54.14960576192006</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00474330564902932</heading>
+					<tilt>27.67354565589182</tilt>
+					<range>282.2851584957166</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470929748511774,54.1495726426637,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Redpark House</name>
+				<LookAt>
+					<longitude>-2.471931045914706</longitude>
+					<latitude>54.14960576192006</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00474330564902932</heading>
+					<tilt>27.67354565589182</tilt>
+					<range>282.2851584957166</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.471342552528644,54.15019979818576,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Redlands</name>
+				<LookAt>
+					<longitude>-2.471931045914706</longitude>
+					<latitude>54.14960576192006</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00474330564902932</heading>
+					<tilt>27.67354565589182</tilt>
+					<range>282.2851584957166</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.47118887190128,54.15029635939806,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3BW</name>
+			<Placemark>
+				<name>10 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.469824894580071</longitude>
+					<latitude>54.15079349181337</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003015383587603175</heading>
+					<tilt>21.54364462851485</tilt>
+					<range>110.5680762695387</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469379135321276,54.15115076611093,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>12 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.469824894580071</longitude>
+					<latitude>54.15079349181337</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003015383587603175</heading>
+					<tilt>21.54364462851485</tilt>
+					<range>110.5680762695387</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469262636700236,54.15116136786801,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>14 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.469040839391656</longitude>
+					<latitude>54.15059572126469</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002400613687913174</heading>
+					<tilt>27.67326878945277</tilt>
+					<range>277.0157466427318</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469002101275532,54.15115928518906,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>16 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.469040839391656</longitude>
+					<latitude>54.15059572126469</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002400613687913174</heading>
+					<tilt>27.67326878945277</tilt>
+					<range>277.0157466427318</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468883941138547,54.15113226711597,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>18 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.469182610577917</longitude>
+					<latitude>54.15054102655841</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002515527927366282</heading>
+					<tilt>27.6732701385103</tilt>
+					<range>277.339186541884</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46864022135689,54.15107492825331,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.469182340039895</longitude>
+					<latitude>54.15054763164444</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002515308669894984</heading>
+					<tilt>27.67327009129171</tilt>
+					<range>277.3278656543629</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469931992682847,54.15093558459789,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>20 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.469182610577917</longitude>
+					<latitude>54.15054102655841</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002515527927366282</heading>
+					<tilt>27.6732701385103</tilt>
+					<range>277.339186541884</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468561200609075,54.15104492284824,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>4 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.470042705236792</longitude>
+					<latitude>54.15070782077871</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003210134326503285</heading>
+					<tilt>26.01789645495171</tilt>
+					<range>181.6302517123953</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469854791434123,54.1510237281138,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>6 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.469824894580071</longitude>
+					<latitude>54.15079349181337</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003015383587603175</heading>
+					<tilt>21.54364462851485</tilt>
+					<range>110.5680762695387</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469603309754612,54.15111658663189,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>8 Burnmoor Crescent</name>
+				<LookAt>
+					<longitude>-2.469824894580071</longitude>
+					<latitude>54.15079349181337</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003015383587603175</heading>
+					<tilt>21.54364462851485</tilt>
+					<range>110.5680762695387</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46948997316324,54.15112995485731,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3BX</name>
+			<Placemark>
+				<name>1 Tansey Terrace</name>
+				<LookAt>
+					<longitude>-2.471649098109852</longitude>
+					<latitude>54.14986451749493</latitude>
+					<altitude>0</altitude>
+					<heading>-0.004494055768140153</heading>
+					<tilt>21.54456353227961</tilt>
+					<range>244.0834745018258</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.47181005526126,54.14992425939845,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Tansey Terrace</name>
+				<LookAt>
+					<longitude>-2.47170327352052</longitude>
+					<latitude>54.14990981546422</latitude>
+					<altitude>0</altitude>
+					<heading>-0.004556944622983722</heading>
+					<tilt>26.15659244706219</tilt>
+					<range>124.4874282905023</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.471751449564184,54.14994690313034,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>3 Tansey Terrace</name>
+				<LookAt>
+					<longitude>-2.47170327352052</longitude>
+					<latitude>54.14990981546422</latitude>
+					<altitude>0</altitude>
+					<heading>-0.004556944622983722</heading>
+					<tilt>26.15659244706219</tilt>
+					<range>124.4874282905023</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.471697889859184,54.14996780662577,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>4 Tansey Terrace</name>
+				<LookAt>
+					<longitude>-2.47170327352052</longitude>
+					<latitude>54.14990981546422</latitude>
+					<altitude>0</altitude>
+					<heading>-0.004556944622983722</heading>
+					<tilt>26.15659244706219</tilt>
+					<range>124.4874282905023</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.47164796834666,54.14998470428182,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>5 Tansey Terrace</name>
+				<LookAt>
+					<longitude>-2.47170327352052</longitude>
+					<latitude>54.14990981546422</latitude>
+					<altitude>0</altitude>
+					<heading>-0.004556944622983722</heading>
+					<tilt>26.15659244706219</tilt>
+					<range>124.4874282905023</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.471597461470848,54.15000180009444,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>6 Tansey Terrace</name>
+				<LookAt>
+					<longitude>-2.47170327352052</longitude>
+					<latitude>54.14990981546422</latitude>
+					<altitude>0</altitude>
+					<heading>-0.004556944622983722</heading>
+					<tilt>26.15659244706219</tilt>
+					<range>124.4874282905023</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.471525780439118,54.1500323493934,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3BY</name>
+			<Placemark>
+				<name>Mill House</name>
+				<LookAt>
+					<longitude>-2.472438934281689</longitude>
+					<latitude>54.15016798421278</latitude>
+					<altitude>0</altitude>
+					<heading>-0.005231590926723145</heading>
+					<tilt>30.00012192706504</tilt>
+					<range>143.9103382523937</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.472232026312371,54.1501922811066,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Elm Lea</name>
+				<LookAt>
+					<longitude>-2.472438934281689</longitude>
+					<latitude>54.15016798421278</latitude>
+					<altitude>0</altitude>
+					<heading>-0.005231590926723145</heading>
+					<tilt>30.00012192706504</tilt>
+					<range>143.9103382523937</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.471858447741253,54.15007168798093,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>1 Elm Villa</name>
+				<LookAt>
+					<longitude>-2.472481016894164</longitude>
+					<latitude>54.15012427268315</latitude>
+					<altitude>0</altitude>
+					<heading>-0.005265701140742826</heading>
+					<tilt>30.0001228815939</tilt>
+					<range>144.1228865371078</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.47194935720532,54.15012513150577,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Elm Villa</name>
+				<LookAt>
+					<longitude>-2.472481016894164</longitude>
+					<latitude>54.15012427268315</latitude>
+					<altitude>0</altitude>
+					<heading>-0.005265701140742826</heading>
+					<tilt>30.0001228815939</tilt>
+					<range>144.1228865371078</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.472043567805301,54.15014815969927,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>1 Bowland Court</name>
+				<LookAt>
+					<longitude>-2.472481016894164</longitude>
+					<latitude>54.15012427268315</latitude>
+					<altitude>0</altitude>
+					<heading>-0.005265701140742826</heading>
+					<tilt>30.0001228815939</tilt>
+					<range>144.1228865371078</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.47262019779206,54.15018408453965,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Bowland Court</name>
+				<LookAt>
+					<longitude>-2.472481016894164</longitude>
+					<latitude>54.15012427268315</latitude>
+					<altitude>0</altitude>
+					<heading>-0.005265701140742826</heading>
+					<tilt>30.0001228815939</tilt>
+					<range>144.1228865371078</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.472514452461698,54.15015768497025,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>3 Bowland Court</name>
+				<LookAt>
+					<longitude>-2.472481016894164</longitude>
+					<latitude>54.15012427268315</latitude>
+					<altitude>0</altitude>
+					<heading>-0.005265701140742826</heading>
+					<tilt>30.0001228815939</tilt>
+					<range>144.1228865371078</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.47257175807805,54.15023779806251,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>4 Bowland Court</name>
+				<LookAt>
+					<longitude>-2.472481016894164</longitude>
+					<latitude>54.15012427268315</latitude>
+					<altitude>0</altitude>
+					<heading>-0.005265701140742826</heading>
+					<tilt>30.0001228815939</tilt>
+					<range>144.1228865371078</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.472482297530061,54.15021757631944,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3BZ</name>
+			<Placemark>
+				<name>Croftlands</name>
+				<LookAt>
+					<longitude>-2.472902399963421</longitude>
+					<latitude>54.14937556575732</latitude>
+					<altitude>0</altitude>
+					<heading>-0.005607252895438221</heading>
+					<tilt>30.00012802533524</tilt>
+					<range>145.2681997730938</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.472608827635204,54.14928613961449,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Hyning</name>
+				<LookAt>
+					<longitude>-2.473767511120843</longitude>
+					<latitude>54.14907565533513</latitude>
+					<altitude>0</altitude>
+					<heading>-0.006308604438897971</heading>
+					<tilt>30.00028321690944</tilt>
+					<range>180.1787526807854</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.47386614128303,54.14878103434263,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ingleholme</name>
+				<LookAt>
+					<longitude>-2.473767511120843</longitude>
+					<latitude>54.14907565533513</latitude>
+					<altitude>0</altitude>
+					<heading>-0.006308604438897971</heading>
+					<tilt>30.00028321690944</tilt>
+					<range>180.1787526807854</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.473577849608687,54.14901321520275,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Leander</name>
+				<LookAt>
+					<longitude>-2.473972220474631</longitude>
+					<latitude>54.14854014010475</latitude>
+					<altitude>0</altitude>
+					<heading>-0.006474526255829416</heading>
+					<tilt>30.00028631236216</tilt>
+					<range>180.8679977874765</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.47354312395983,54.14830525758757,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Loen</name>
+				<LookAt>
+					<longitude>-2.473972220474631</longitude>
+					<latitude>54.14854014010475</latitude>
+					<altitude>0</altitude>
+					<heading>-0.006474526255829416</heading>
+					<tilt>30.00028631236216</tilt>
+					<range>180.8679977874765</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.47407549315303,54.14855802843782,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Millstone</name>
+				<LookAt>
+					<longitude>-2.473972220474631</longitude>
+					<latitude>54.14854014010475</latitude>
+					<altitude>0</altitude>
+					<heading>-0.006474526255829416</heading>
+					<tilt>30.00028631236216</tilt>
+					<range>180.8679977874765</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.473092177672089,54.1495196986094,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Oak Lea</name>
+				<LookAt>
+					<longitude>-2.473972220474631</longitude>
+					<latitude>54.14854014010475</latitude>
+					<altitude>0</altitude>
+					<heading>-0.006474526255829416</heading>
+					<tilt>30.00028631236216</tilt>
+					<range>180.8679977874765</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.473453047748121,54.1483901640674,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rosebec</name>
+				<LookAt>
+					<longitude>-2.473972220474631</longitude>
+					<latitude>54.14854014010475</latitude>
+					<altitude>0</altitude>
+					<heading>-0.006474526255829416</heading>
+					<tilt>30.00028631236216</tilt>
+					<range>180.8679977874765</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.472785260760993,54.14909994193739,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Schiehallion</name>
+				<LookAt>
+					<longitude>-2.473972220474631</longitude>
+					<latitude>54.14854014010475</latitude>
+					<altitude>0</altitude>
+					<heading>-0.006474526255829416</heading>
+					<tilt>30.00028631236216</tilt>
+					<range>180.8679977874765</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.473722809857311,54.14890022972795,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Croft</name>
+				<LookAt>
+					<longitude>-2.473972220474631</longitude>
+					<latitude>54.14854014010475</latitude>
+					<altitude>0</altitude>
+					<heading>-0.006474526255829416</heading>
+					<tilt>30.00028631236216</tilt>
+					<range>180.8679977874765</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.472557490342747,54.14973273345292,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dale Croft</name>
+				<LookAt>
+					<longitude>-2.47349522068932</longitude>
+					<latitude>54.14850312394049</latitude>
+					<altitude>0</altitude>
+					<heading>-0.006087901048742019</heading>
+					<tilt>30.00028033561184</tilt>
+					<range>179.5371871964788</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.473334974621345,54.14851729753035,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Westgate</name>
+				<LookAt>
+					<longitude>-2.47349522068932</longitude>
+					<latitude>54.14850312394049</latitude>
+					<altitude>0</altitude>
+					<heading>-0.006087901048742019</heading>
+					<tilt>30.00028033561184</tilt>
+					<range>179.5371871964788</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.473962798983334,54.14866648523745,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>1 Westfield</name>
+				<LookAt>
+					<longitude>-2.473384105454717</longitude>
+					<latitude>54.14883940100171</latitude>
+					<altitude>0</altitude>
+					<heading>-0.005997838858163217</heading>
+					<tilt>30.00027741892539</tilt>
+					<range>178.8877617541512</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.473285069569324,54.14931666111561,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Westfield</name>
+				<LookAt>
+					<longitude>-2.473384105454717</longitude>
+					<latitude>54.14883940100171</latitude>
+					<altitude>0</altitude>
+					<heading>-0.005997838858163217</heading>
+					<tilt>30.00027741892539</tilt>
+					<range>178.8877617541512</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.473228022120459,54.14935143524058,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ashgate</name>
+				<LookAt>
+					<longitude>-2.473002710462378</longitude>
+					<latitude>54.14913143299962</latitude>
+					<altitude>0</altitude>
+					<heading>-0.005688702492973475</heading>
+					<tilt>30.00027408714026</tilt>
+					<range>178.1459010228025</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.472301288954922,54.14926000387646,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Romar</name>
+				<LookAt>
+					<longitude>-2.473002710462378</longitude>
+					<latitude>54.14913143299962</latitude>
+					<altitude>0</altitude>
+					<heading>-0.005688702492973475</heading>
+					<tilt>30.00027408714026</tilt>
+					<range>178.1459010228025</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.472967904793672,54.14887291917855,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>South View</name>
+				<LookAt>
+					<longitude>-2.47351943240821</longitude>
+					<latitude>54.14856263178284</latitude>
+					<altitude>0</altitude>
+					<heading>-0.006107522015657019</heading>
+					<tilt>30.00028006874371</tilt>
+					<range>179.4777733307941</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.473788799396195,54.14822405307923,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Laurels</name>
+				<LookAt>
+					<longitude>-2.47351943240821</longitude>
+					<latitude>54.14856263178284</latitude>
+					<altitude>0</altitude>
+					<heading>-0.006107522015657019</heading>
+					<tilt>30.00028006874371</tilt>
+					<range>179.4777733307941</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.471994788198457,54.14922426902272,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Brierwood</name>
+				<LookAt>
+					<longitude>-2.47351943240821</longitude>
+					<latitude>54.14856263178284</latitude>
+					<altitude>0</altitude>
+					<heading>-0.006107522015657019</heading>
+					<tilt>30.00028006874371</tilt>
+					<range>179.4777733307941</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.472872222350303,54.1489931708781,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cravendale</name>
+				<LookAt>
+					<longitude>-2.47351943240821</longitude>
+					<latitude>54.14856263178284</latitude>
+					<altitude>0</altitude>
+					<heading>-0.006107522015657019</heading>
+					<tilt>30.00028006874371</tilt>
+					<range>179.4777733307941</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.47345729312674,54.14911312391436,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bramley House</name>
+				<LookAt>
+					<longitude>-2.47351943240821</longitude>
+					<latitude>54.14856263178284</latitude>
+					<altitude>0</altitude>
+					<heading>-0.006107522015657019</heading>
+					<tilt>30.00028006874371</tilt>
+					<range>179.4777733307941</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.473360726369519,54.14921770361232,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Honleigh</name>
+				<LookAt>
+					<longitude>-2.47351943240821</longitude>
+					<latitude>54.14856263178284</latitude>
+					<altitude>0</altitude>
+					<heading>-0.006107522015657019</heading>
+					<tilt>30.00028006874371</tilt>
+					<range>179.4777733307941</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.473083120043023,54.14873586259601,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3DA</name>
+			<Placemark>
+				<name>Overdale</name>
+				<LookAt>
+					<longitude>-2.470840735656688</longitude>
+					<latitude>54.1484457625481</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003936221209303672</heading>
+					<tilt>30.00040700920187</tilt>
+					<range>207.6350449009433</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470738264788617,54.14816142622768,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hillside</name>
+				<LookAt>
+					<longitude>-2.470840735656688</longitude>
+					<latitude>54.1484457625481</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003936221209303672</heading>
+					<tilt>30.00040700920187</tilt>
+					<range>207.6350449009433</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470712566255575,54.14834176369745,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hillside Garage</name>
+				<LookAt>
+					<longitude>-2.470840735656688</longitude>
+					<latitude>54.1484457625481</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003936221209303672</heading>
+					<tilt>30.00040700920187</tilt>
+					<range>207.6350449009433</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470831858698469,54.14848258953636,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fieldhouse Barn</name>
+				<LookAt>
+					<longitude>-2.471377329802224</longitude>
+					<latitude>54.14895720739513</latitude>
+					<altitude>0</altitude>
+					<heading>-0.004371151520219205</heading>
+					<tilt>30.00040949787195</tilt>
+					<range>208.1891732054865</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.471265486439953,54.14925326253699,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3DB</name>
+			<Placemark>
+				<name>1 Croft Close</name>
+				<LookAt>
+					<longitude>-2.470090670268847</longitude>
+					<latitude>54.14828684611114</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003328267622923536</heading>
+					<tilt>30.00039686825351</tilt>
+					<range>205.3770526842695</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470622684619012,54.14808400708366,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>10 Croft Close</name>
+				<LookAt>
+					<longitude>-2.470090670268847</longitude>
+					<latitude>54.14828684611114</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003328267622923536</heading>
+					<tilt>30.00039686825351</tilt>
+					<range>205.3770526842695</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469928496446396,54.14856348185918,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>12 Croft Close</name>
+				<LookAt>
+					<longitude>-2.470178406666424</longitude>
+					<latitude>54.14832212653322</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003399381210013799</heading>
+					<tilt>30.00039792818093</tilt>
+					<range>205.6130678102464</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469889383448786,54.14876445215963,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>14 Croft Close</name>
+				<LookAt>
+					<longitude>-2.470178406666424</longitude>
+					<latitude>54.14832212653322</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003399381210013799</heading>
+					<tilt>30.00039792818093</tilt>
+					<range>205.6130678102464</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46987050400209,54.14892186068393,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>16 Croft Close</name>
+				<LookAt>
+					<longitude>-2.470178406666424</longitude>
+					<latitude>54.14832212653322</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003399381210013799</heading>
+					<tilt>30.00039792818093</tilt>
+					<range>205.6130678102464</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469823131761469,54.14911357153611,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Croft Close</name>
+				<LookAt>
+					<longitude>-2.470170585941457</longitude>
+					<latitude>54.14834352148729</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003393042255125739</heading>
+					<tilt>30.00039764816764</tilt>
+					<range>205.5507170202027</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469974205020322,54.14797960341848,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>3 Croft Close</name>
+				<LookAt>
+					<longitude>-2.470170585941457</longitude>
+					<latitude>54.14834352148729</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003393042255125739</heading>
+					<tilt>30.00039764816764</tilt>
+					<range>205.5507170202027</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470380653029012,54.14820114276572,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>4 Croft Close</name>
+				<LookAt>
+					<longitude>-2.470170585941457</longitude>
+					<latitude>54.14834352148729</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003393042255125739</heading>
+					<tilt>30.00039764816764</tilt>
+					<range>205.5507170202027</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469946917859072,54.14806500833426,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>5 Croft Close</name>
+				<LookAt>
+					<longitude>-2.470170585941457</longitude>
+					<latitude>54.14834352148729</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003393042255125739</heading>
+					<tilt>30.00039764816764</tilt>
+					<range>205.5507170202027</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470361088391072,54.14834754767713,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>6 Croft Close</name>
+				<LookAt>
+					<longitude>-2.470170585941457</longitude>
+					<latitude>54.14834352148729</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003393042255125739</heading>
+					<tilt>30.00039764816764</tilt>
+					<range>205.5507170202027</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469927221451357,54.14821708658026,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>7 Croft Close</name>
+				<LookAt>
+					<longitude>-2.470170585941457</longitude>
+					<latitude>54.14834352148729</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003393042255125739</heading>
+					<tilt>30.00039764816764</tilt>
+					<range>205.5507170202027</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470343885106915,54.14851384963458,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>8 Croft Close</name>
+				<LookAt>
+					<longitude>-2.470170585941457</longitude>
+					<latitude>54.14834352148729</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003393042255125739</heading>
+					<tilt>30.00039764816764</tilt>
+					<range>205.5507170202027</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469923152668796,54.14838339859673,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>9 Croft Close</name>
+				<LookAt>
+					<longitude>-2.470170585941457</longitude>
+					<latitude>54.14834352148729</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003393042255125739</heading>
+					<tilt>30.00039764816764</tilt>
+					<range>205.5507170202027</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470335465848215,54.14866776414595,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3DD</name>
+			<Placemark>
+				<name>Branch House</name>
+				<LookAt>
+					<longitude>-2.47114432613988</longitude>
+					<latitude>54.14786680379614</latitude>
+					<altitude>0</altitude>
+					<heading>-0.004182286011586335</heading>
+					<tilt>30.00041362385967</tilt>
+					<range>209.1078767769423</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470798308169924,54.14766351632785,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3DE</name>
+			<Placemark>
+				<name>Brooklyn</name>
+				<LookAt>
+					<longitude>-2.470362825289407</longitude>
+					<latitude>54.14722353388748</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003548861345801541</heading>
+					<tilt>30.00040841695961</tilt>
+					<range>207.9485168463413</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469326029099376,54.14680677781297,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Bield</name>
+				<LookAt>
+					<longitude>-2.470362825289407</longitude>
+					<latitude>54.14722353388748</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003548861345801541</heading>
+					<tilt>30.00040841695961</tilt>
+					<range>207.9485168463413</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469468418922478,54.1471413895411,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Inglebeck</name>
+				<LookAt>
+					<longitude>-2.470362825289407</longitude>
+					<latitude>54.14722353388748</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003548861345801541</heading>
+					<tilt>30.00040841695961</tilt>
+					<range>207.9485168463413</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469517963505215,54.1469616731324,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>St. Ives</name>
+				<LookAt>
+					<longitude>-2.470362825289407</longitude>
+					<latitude>54.14722353388748</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003548861345801541</heading>
+					<tilt>30.00040841695961</tilt>
+					<range>207.9485168463413</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470063147085595,54.14734534696478,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Brookside</name>
+				<LookAt>
+					<longitude>-2.470362825289407</longitude>
+					<latitude>54.14722353388748</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003548861345801541</heading>
+					<tilt>30.00040841695961</tilt>
+					<range>207.9485168463413</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469956849195555,54.147191017964,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>1 Ash Villas</name>
+				<LookAt>
+					<longitude>-2.470362825289407</longitude>
+					<latitude>54.14722353388748</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003548861345801541</heading>
+					<tilt>30.00040841695961</tilt>
+					<range>207.9485168463413</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469459840064824,54.14740073567405,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Ash Villas</name>
+				<LookAt>
+					<longitude>-2.470362825289407</longitude>
+					<latitude>54.14722353388748</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003548861345801541</heading>
+					<tilt>30.00040841695961</tilt>
+					<range>207.9485168463413</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469445377077446,54.14751272360017,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>1 Brookacre</name>
+				<LookAt>
+					<longitude>-2.469549696039834</longitude>
+					<latitude>54.14686813084782</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002889798710554973</heading>
+					<tilt>30.00040179020312</tilt>
+					<range>206.472971668358</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46897648047568,54.1467388533631,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Brookacre</name>
+				<LookAt>
+					<longitude>-2.469549696039834</longitude>
+					<latitude>54.14686813084782</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002889798710554973</heading>
+					<tilt>30.00040179020312</tilt>
+					<range>206.472971668358</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468491850263479,54.14684468358771,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>3 Brookacre</name>
+				<LookAt>
+					<longitude>-2.469549696039834</longitude>
+					<latitude>54.14686813084782</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002889798710554973</heading>
+					<tilt>30.00040179020312</tilt>
+					<range>206.472971668358</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469004880926721,54.14681777103242,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>4 Brookacre</name>
+				<LookAt>
+					<longitude>-2.469549696039834</longitude>
+					<latitude>54.14686813084782</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002889798710554973</heading>
+					<tilt>30.00040179020312</tilt>
+					<range>206.472971668358</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468633533605487,54.14682156445466,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>5 Brookacre</name>
+				<LookAt>
+					<longitude>-2.469549696039834</longitude>
+					<latitude>54.14686813084782</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002889798710554973</heading>
+					<tilt>30.00040179020312</tilt>
+					<range>206.472971668358</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469020606318829,54.14690193581017,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>6 Brookacre</name>
+				<LookAt>
+					<longitude>-2.469549696039834</longitude>
+					<latitude>54.14686813084782</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002889798710554973</heading>
+					<tilt>30.00040179020312</tilt>
+					<range>206.472971668358</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46859121183447,54.14692385391004,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>7 Brookacre</name>
+				<LookAt>
+					<longitude>-2.469549696039834</longitude>
+					<latitude>54.14686813084782</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002889798710554973</heading>
+					<tilt>30.00040179020312</tilt>
+					<range>206.472971668358</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468996090754481,54.14700183530758,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>8 Brookacre</name>
+				<LookAt>
+					<longitude>-2.469549696039834</longitude>
+					<latitude>54.14686813084782</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002889798710554973</heading>
+					<tilt>30.00040179020312</tilt>
+					<range>206.472971668358</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468596372653182,54.14703271200826,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>9 Brookacre</name>
+				<LookAt>
+					<longitude>-2.469549696039834</longitude>
+					<latitude>54.14686813084782</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002889798710554973</heading>
+					<tilt>30.00040179020312</tilt>
+					<range>206.472971668358</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.468981277078395,54.14710725575282,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Maple House</name>
+				<LookAt>
+					<longitude>-2.469549696039834</longitude>
+					<latitude>54.14686813084782</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002889798710554973</heading>
+					<tilt>30.00040179020312</tilt>
+					<range>206.472971668358</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.469462509092713,54.14727784495937,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>LA6 3DF</name>
+			<Placemark>
+				<name>Eskdale</name>
+				<LookAt>
+					<longitude>-2.47070444852153</longitude>
+					<latitude>54.14709488273515</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003825464299279256</heading>
+					<tilt>30.00043021304104</tilt>
+					<range>212.756419419841</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470586439389104,54.14724730627499,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pomarez</name>
+				<LookAt>
+					<longitude>-2.47070444852153</longitude>
+					<latitude>54.14709488273515</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003825464299279256</heading>
+					<tilt>30.00043021304104</tilt>
+					<range>212.756419419841</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.46988583508918,54.14751540163479,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Underscar</name>
+				<LookAt>
+					<longitude>-2.47070444852153</longitude>
+					<latitude>54.14709488273515</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003825464299279256</heading>
+					<tilt>30.00043021304104</tilt>
+					<range>212.756419419841</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470649199288792,54.14731489514649,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Evangelical Church</name>
+				<LookAt>
+					<longitude>-2.47070444852153</longitude>
+					<latitude>54.14709488273515</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003825464299279256</heading>
+					<tilt>30.00043021304104</tilt>
+					<range>212.756419419841</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470865280390523,54.14770028199342,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>1 Lytham Terrace</name>
+				<LookAt>
+					<longitude>-2.470813331366381</longitude>
+					<latitude>54.14719124625987</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003913720861631848</heading>
+					<tilt>29.99990590814475</tilt>
+					<range>213.0999461505629</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470763734919092,54.14757564396222,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Lytham Terrace</name>
+				<LookAt>
+					<longitude>-2.470813331366381</longitude>
+					<latitude>54.14719124625987</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003913720861631848</heading>
+					<tilt>29.99990590814475</tilt>
+					<range>213.0999461505629</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470744493283047,54.14753775101479,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>3 Lytham Terrace</name>
+				<LookAt>
+					<longitude>-2.470813331366381</longitude>
+					<latitude>54.14719124625987</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003913720861631848</heading>
+					<tilt>29.99990590814475</tilt>
+					<range>213.0999461505629</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470717921445687,54.14749481098417,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>4 Lytham Terrace</name>
+				<LookAt>
+					<longitude>-2.470813331366381</longitude>
+					<latitude>54.14719124625987</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003913720861631848</heading>
+					<tilt>29.99990590814475</tilt>
+					<range>213.0999461505629</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470688411300239,54.14744121913968,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>1 Imperial Court</name>
+				<LookAt>
+					<longitude>-2.470570207671374</longitude>
+					<latitude>54.1471209893387</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003716663977827888</heading>
+					<tilt>29.99990406989537</tilt>
+					<range>212.6906309068545</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470413258102993,54.1471283487874,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2 Imperial Court</name>
+				<LookAt>
+					<longitude>-2.470388720899353</longitude>
+					<latitude>54.14703866197214</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003572628445549924</heading>
+					<tilt>29.41985147818491</tilt>
+					<range>138.3996082630252</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470354267747822,54.14707276331342,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>3 Imperial Court</name>
+				<LookAt>
+					<longitude>-2.470388720899353</longitude>
+					<latitude>54.14703866197214</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003572628445549924</heading>
+					<tilt>29.41985147818491</tilt>
+					<range>138.3996082630252</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470280971378528,54.14701060315957,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>4 Imperial Court</name>
+				<LookAt>
+					<longitude>-2.470388720899353</longitude>
+					<latitude>54.14703866197214</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003572628445549924</heading>
+					<tilt>29.41985147818491</tilt>
+					<range>138.3996082630252</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470069032862861,54.14686977671149,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>5 Imperial Court</name>
+				<LookAt>
+					<longitude>-2.470388720899353</longitude>
+					<latitude>54.14703866197214</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003572628445549924</heading>
+					<tilt>29.41985147818491</tilt>
+					<range>138.3996082630252</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470155715047881,54.14694234012557,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>6 Imperial Court</name>
+				<LookAt>
+					<longitude>-2.470388720899353</longitude>
+					<latitude>54.14703866197214</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003572628445549924</heading>
+					<tilt>29.41985147818491</tilt>
+					<range>138.3996082630252</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470073791622217,54.14681885259007,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>7 Imperial Court</name>
+				<LookAt>
+					<longitude>-2.470388720899353</longitude>
+					<latitude>54.14703866197214</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003572628445549924</heading>
+					<tilt>29.41985147818491</tilt>
+					<range>138.3996082630252</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-2.470105267095804,54.14677144889706,0</coordinates>
 				</Point>
 			</Placemark>
 		</Folder>
