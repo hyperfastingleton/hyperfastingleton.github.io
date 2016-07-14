@@ -110,6 +110,7 @@ gulp.task('data', () => {
 gulp.task('extras', () => {
   return gulp.src([
     'app/*.*',
+    'app/*', // make sure i get the CNAME file with no extension (for github pages)
     '!app/*.html'
   ], {
     dot: true
