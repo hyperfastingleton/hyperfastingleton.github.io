@@ -1,13 +1,21 @@
-// generated on 2016-07-12 using generator-webapp 2.1.0
+
 const gulp = require('gulp');
 const gulpLoadPlugins = require('gulp-load-plugins');
 const browserSync = require('browser-sync');
 const del = require('del');
 const wiredep = require('wiredep').stream;
-var debug = require('gulp-debug');
+const debug = require('gulp-debug');
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
+
+// for KML data transform task
+const fs = require('fs');
+const jsdom = require('jsdom').jsdom;
+const togeojson = require('togeojson');
+const stringify = require('json-stringify');
+const _ = require('lodash')
+
 
 gulp.task('styles', () => {
   return gulp.src('app/styles/*.scss')
@@ -34,7 +42,6 @@ gulp.task('scripts', () => {
   //   .pipe(gulp.dest('.tmp/scripts'))
   //   .pipe(reload({stream: true}));
   gulp.src('app/scripts/**/*.ts')
-    .pipe(debug())
     .pipe($.plumber())
     .pipe($.sourcemaps.init())
     .pipe($.typescript()).js
@@ -186,4 +193,33 @@ gulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras'], () => {
 
 gulp.task('default', ['clean'], () => {
   gulp.start('build');
+});
+
+
+gulp.task('data', () => {
+  var kml = jsdom(fs.readFileSync('app/data/doc.kml', 'utf8'));
+  var geojson = togeojson.kml(kml);
+
+  var massageFeatures = (features) => {
+    return _(features)
+      .filter(f => { return f.geometry.type === 'Point' })
+      .filter(f => { return  f.properties.name !== 'common' }) //!f.properties.name.startsWith('IG') &&
+      .map(f => {
+        return {
+          type: f.type,
+          geometry: f.geometry,
+          properties: {
+            name: f.properties.name.replace(',', '')
+          }
+        }
+      })
+      .value();
+  }
+
+  var massagedGeoJson = {
+    type: "FeatureCollection",
+    features: massageFeatures(geojson.features)
+  };
+
+  fs.writeFileSync('app/data/map.json', stringify(massagedGeoJson), 'utf-8'); 
 });

@@ -13,4 +13,26 @@ $icon-font-path: '../fonts/';
 
 
 
-#map { height: 500px; }
+body {
+  background-color: #333;
+  color: white;
+  font-size: 200%;
+}
+h1 {
+  font-weight: bold;
+  font-size: 4em;
+}
+.pink {
+  color: deeppink;
+  font-weight: normal;
+}
+.blue {
+  color: dodgerblue;
+}
+.strapline {
+}
+
+#map {
+  height: 600px;
+  color: black;
+  }
