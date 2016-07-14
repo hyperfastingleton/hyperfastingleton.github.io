@@ -101,16 +101,11 @@ gulp.task('fonts', () => {
   //   .pipe(gulp.dest('dist/fonts'));
 });
 
-gulp.task('data', () => {
-  return gulp.src('data/**/*')
-    .pipe(gulp.dest('dist/data')); // ??
-});
-
-
 gulp.task('extras', () => {
   return gulp.src([
     'app/*.*',
     'app/*', // make sure i get the CNAME file with no extension (for github pages)
+    'app/data/*.*', // include the data
     '!app/*.html'
   ], {
     dot: true
@@ -197,7 +192,7 @@ gulp.task('default', ['clean'], () => {
 });
 
 
-gulp.task('data', () => {
+gulp.task('processdata', () => {
   var kml = jsdom(fs.readFileSync('app/data/doc.kml', 'utf8'));
   var geojson = togeojson.kml(kml);
 
