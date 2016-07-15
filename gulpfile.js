@@ -198,8 +198,9 @@ gulp.task('processdata', () => {
 
   var massageFeatures = (features) => {
     return _(features)
-      .filter(f => { return f.geometry.type === 'Point' })
-      .filter(f => { return  f.properties.name !== 'common' }) //!f.properties.name.startsWith('IG') &&
+      .filter(f => f.geometry.type === 'Point')
+      .filter(f => f.properties.name !== 'common') //!f.properties.name.startsWith('IG') &&
+      .filter(f => f.properties.name.includes('Dale Bank') || f.properties.name.includes('Dalebank'))
       .map(f => {
         return {
           type: f.type,
@@ -218,4 +219,42 @@ gulp.task('processdata', () => {
   };
 
   fs.writeFileSync('app/data/map.json', stringify(massagedGeoJson), 'utf-8'); 
+});
+
+gulp.task('play', () => {
+  var input = [ 20, 30, 30, 30, 40, 50, 50, 30 ];
+
+  var spreadOut = (g) => {
+    var q = _(g)
+      .map((n, i) => (i === 0) ?  n : n + i)
+      .value();
+
+    return q;
+  };
+
+  // spread out features with the same coords
+  var query = _(input)
+    .groupBy(n => n)
+    .map(spreadOut)
+    .value();
+
+  console.log(query);
+});
+
+gulp.task('identicals', () => {
+  var kml = jsdom(fs.readFileSync('app/data/doc.kml', 'utf8'));
+  var geojson = togeojson.kml(kml);
+
+  var query2 = _(geojson.features);
+
+  var query = _(geojson.features)
+      .filter(f => f.geometry.type === 'Point')
+      .filter(f => f.properties.name !== 'common')
+      //.filter(f => f.properties.name.includes('Dale Bank') || f.properties.name.includes('Dalebank'))
+      .groupBy(f => f.geometry.coordinates[0] + ":" + f.geometry.coordinates[1])
+      .filter(g => _(g).size() > 1)
+      .flatMap(g => _(g).map(x => x.properties.unnamed))
+      .value();
+
+  fs.writeFileSync('app/data/query.json', stringify(query), 'utf-8'); 
 });
