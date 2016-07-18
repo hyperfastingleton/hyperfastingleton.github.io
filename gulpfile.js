@@ -69,9 +69,13 @@ gulp.task('lint:test', () => {
 });
 
 gulp.task('html', ['styles', 'scripts'], () => {
-  // minify and rev js and css
+
+  $.nunjucksRender.nunjucks.configure(['app']);
+
   // create output dist
-  return gulp.src('app/*.html')
+  return gulp.src(['app/**/*.html', '!app/master.html'])
+    .pipe($.debug())
+    .pipe($.nunjucksRender())
     .pipe($.useref({searchPath: ['.tmp', 'app', '.']}))
     .pipe($.if('*.js', $.uglify()))
     .pipe($.if('*.css', $.cssnano({safe: true, autoprefixer: false})))
@@ -79,6 +83,7 @@ gulp.task('html', ['styles', 'scripts'], () => {
     .pipe($.if('*.css', $.rev()))  // e.g. unicorn.css -> unicorn-098f6bcd.css
     .pipe($.revReplace())          // replace the references to the rev'd files
     .pipe($.if('*.html', $.htmlmin({collapseWhitespace: true})))
+    .pipe($.if('*.html', $.rename(path => { if (path.basename !== 'index') { path.extname = ''; }} ))) // remove extension to get nice URLs eg '/about'
     .pipe(gulp.dest('dist'));
 });
 
@@ -245,12 +250,9 @@ gulp.task('identicals', () => {
   var kml = jsdom(fs.readFileSync('app/data/doc.kml', 'utf8'));
   var geojson = togeojson.kml(kml);
 
-  var query2 = _(geojson.features);
-
   var query = _(geojson.features)
       .filter(f => f.geometry.type === 'Point')
       .filter(f => f.properties.name !== 'common')
-      //.filter(f => f.properties.name.includes('Dale Bank') || f.properties.name.includes('Dalebank'))
       .groupBy(f => f.geometry.coordinates[0] + ":" + f.geometry.coordinates[1])
       .filter(g => _(g).size() > 1)
       .flatMap(g => _(g).map(x => x.properties.unnamed))
