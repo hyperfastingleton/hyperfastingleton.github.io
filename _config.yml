@@ -74,3 +74,8 @@ deploy:
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
 
 
+# Header
+menu:
+  Home: index.html
+  Archives: archives/
+  Introduction: introduction/
