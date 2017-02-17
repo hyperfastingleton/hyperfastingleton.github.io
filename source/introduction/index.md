@@ -13,7 +13,7 @@ Hyperfast Ingleton is a local group of volunteers who are bringing the amazing [
 
 B4RN offers **real optical fibre** all the way into your property. It is completely different to the so-called "fibre broadband" we've been offered by monopoly telecom providers and the government for years.
 
-For £30 per month you get a **1000Mb symmetric fibre connection**. This is perhaps 100x better than you’re getting now, even if your house is near a green cabinet. It’s also a generation ahead of what you might get in a city like London - and it works regardless of where your house is!
+For £30 per month you get a **ultra-reliable, 1000Mb symmetric fibre connection**. This is perhaps 100x better than you’re getting now, even if your house is near a green cabinet. It’s also a generation ahead of what you might get in a city like London - and it works regardless of where your house is!
 
 For **homes**, you can
 
@@ -23,7 +23,7 @@ For **homes**, you can
 
 For **businesses and homeworkers**
 
-- ultra-reliable symmetric fibre, hugely benefiting existing businesses and enabling new businesses to locate in and around Ingleton
+- ultra-reliable symmetric fibre hugely benefits existing businesses and enables new businesses to locate in and around Ingleton
 
 For **everyone**
 
@@ -44,13 +44,17 @@ The first soil was cut in 2012 around Arkholme and Quernmoor, and the network ha
 - over 2,300 connected customers
 - over 1000km of core network in Lancashire, N. Yorks and Cumbria
 - 14 staff and hundreds of volunteers
-- been trusted with £4.8 of share investment and in loans from local communities
+- been trusted with £4.8 million of share investment and loans from local communities
 
 In 2015 Barry Forde and Chris Conder, whom some of you may know, were included on the Queen’s Honours list and awarded MBEs in recognition of this unique achievement.
 
 B4RN is now a leading independent Internet Service Provider, and the B4RN model is being copied in other parts of the UK and even around the world!
 
-## But seriously, how is this possible?
+## B4RN coverage area
+
+![B4RN coverage area, actual and planned, January 2017](/images/coverage-area.png)
+
+## Dig-It-Yourself broadband?
 
 Many people have now heard about B4RN from friends in neighbouring areas. So you may already know that we have to **dig it ourselves**. This is easier than it sounds! Dozens of nearby communities have already done it, and [we are doing it right now](/progress/) in Ingleton! 
 

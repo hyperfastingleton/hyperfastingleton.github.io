@@ -15,4 +15,6 @@ When you are signed up to this [Google Group](https://groups.google.com/forum/#!
 
 Neighbourhood champions use this group to communicate with all the Ingleton volunteers by email. You will know you are a member when you receive emails with [hyperfastingleton] in the subject.
 
+**If you want to help, make sure you are signed up to this mailing list!** (Ask your neighbourhood champion to sign you up.)
+
 See you at the next dig!
