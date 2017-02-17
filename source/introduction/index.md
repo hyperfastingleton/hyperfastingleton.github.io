@@ -13,7 +13,7 @@ Hyperfast Ingleton is a local group of volunteers who are bringing the amazing [
 
 B4RN offers **real optical fibre** all the way into your property. It is completely different to the so-called "fibre broadband" we've been offered by monopoly telecom providers and the government for years.
 
-For £30 per month you get a **ultra-reliable, 1000Mb symmetric fibre connection**. This is perhaps 100x better than you’re getting now, even if your house is near a green cabinet. It’s also a generation ahead of what you might get in a city like London - and it works regardless of where your house is!
+For £30 per month you get an **ultra-reliable, 1000Mb symmetric fibre connection**. This is perhaps 100x better than you’re getting now, even if your house is near a green cabinet. It’s also a generation ahead of what you might get in a city like London - and it works regardless of where your house is!
 
 For **homes**, you can
 

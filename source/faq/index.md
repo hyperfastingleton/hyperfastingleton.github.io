@@ -26,7 +26,7 @@ If you decide you really do need your landline, you can:
 
 There are several things to consider when deciding whether or not to ditch your landline or use Internet telephony. Please see  [the B4RN website](https://b4rn.org.uk/faqs/) until we can write a more detailed guide!
 
-If you have a little or **no mobile signal** in your house, the B4RN router supports *Wifi Calling* which routes your mobile signal through the Internet. This is great news if you live in a stone cottage or barn conversion, or in a mobile blackspot! If you have a modern smartphone, [Vodaphone](https://www.vodafone.co.uk/explore/network/network-improvements/wi-fi-calling/) and [EE](http://ee.co.uk/why-ee/wifi-calling) provide this service for free, and it works incredibly well.
+If you have little or **no mobile signal** in your house, the B4RN router supports *Wifi Calling* which routes your mobile signal through the Internet. This is great news if you live in a stone cottage or barn conversion, or in a mobile blackspot! If you have a modern smartphone, [Vodaphone](https://www.vodafone.co.uk/explore/network/network-improvements/wi-fi-calling/) and [EE](http://ee.co.uk/why-ee/wifi-calling) provide this service for free, and it works incredibly well.
 
 ## {% fa hashtag %} What about my TV?
 Most modern smart TVs can stream from the Internet, and B4RN provides a world-beating Internet service. A single B4RN connection can easily support **everyone in the family** watching different programmes on iPlayer at the same time, in full HD! If you pay for an existing satellite or cable packages, you must decide for yourself what you want to do.
@@ -37,10 +37,29 @@ Free email addresses, such as **yourname@btinternet.com**, are one way your exis
 ## {% fa hashtag %} How does it get to my house?
 We need to lay a thin plastic tube under your garden or along your wall, and drill a hole in your house. Strictly speaking, the householder is responsible for this, but this is the **ultimate community project**, so we're hoping to be able to help as many people as possible who cannot do this for themselves.
 
-![Sample orange and black ducting with fibre sticking out](/images/duct-sample.jpg)
+{% raw %}
+<div class="justified-gallery">
+<img src="/images/duct-sample.jpg" alt="Sample of orange and black ducting"/>
+<img src="/images/installations/outside-box-1.jpg" alt="Entry box fixed to wall"/>
+<img src="/images/installations/outside-box-2.jpg" alt="Entry box installed!"/>
+</div>
+{% endraw %}
 
-In this picture, you can see the orange ducting (for hiding underground) and the black ducting (for external walls) with some optical fibre sticking out of it. As you can see, the ducting is very thin (7mm diameter) and is straightforward to bury or attach to walls. 
+In the above picture, you can see the orange ducting (for burying underground) and the black ducting (for external walls). If you look closely (click on the photo to zoom) you can see a bit of optical fibre sticking out of it! It enters your house through a little box fixed to your wall.
 
-Inside your house, you will need the B4RN router attached to a wall in a suitable spot.
+{% raw %}
+<div class="justified-gallery">
+<img src="/images/installations/router-2-backplate.jpg" alt="Backplate fixed to wall" />
+<img src="/images/installations/router-2-done.jpg" alt="Router installed!" />
+</div>
+{% endraw %}
+
+Inside your house, you will need the B4RN router attached to a wall in a suitable spot, near a power supply.
+
+## {% fa hashtag %} How fast is it really?
+
+Typical broadband speed in the area may be 5Mbps download and 0.4Mbps upload. This can vary - try [testing your current broadband speed](http://www.speedtest.net/) during the evening!  The B4RN service is 1000Mbps download and 1000Mbps upload, irrespective of the time of day or the distance from your B4RN cabinet. This is **200x faster download and 2500x faster upload**. B4RN removes the internet connection as being the problem - your devices will now be the bottleneck!
+
+A single B4RN connection would easily allows a family to watch iPlayer on all their own devices, simultaneously, in full HD. For business and creative use, the reliability, upload and low latency is a different world to ADSL broadband. 
 
 For more Frequently Asked Questions, please see those on [the B4RN website](https://b4rn.org.uk/faqs/).
