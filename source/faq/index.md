@@ -60,6 +60,6 @@ Inside your house, you will need the B4RN router attached to a wall in a suitabl
 
 Typical broadband speed in the area may be 5Mbps download and 0.4Mbps upload. This can vary - try [testing your current broadband speed](http://www.speedtest.net/) during the evening!  The B4RN service is 1000Mbps download and 1000Mbps upload, irrespective of the time of day or the distance from your B4RN cabinet. This is **200x faster download and 2500x faster upload**. B4RN removes the internet connection as being the problem - your devices will now be the bottleneck!
 
-A single B4RN connection would easily allows a family to watch iPlayer on all their own devices, simultaneously, in full HD. For business and creative use, the reliability, upload and low latency is a different world to ADSL broadband. 
+A single B4RN connection would easily allow a family to watch iPlayer on all their own devices, simultaneously, in full HD. For business and creative use, the reliability, upload and low latency is a different world to ADSL broadband. 
 
 For more Frequently Asked Questions, please see those on [the B4RN website](https://b4rn.org.uk/faqs/).
