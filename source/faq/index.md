@@ -62,4 +62,9 @@ Typical broadband speed in the area may be 5Mbps download and 0.4Mbps upload. Th
 
 A single B4RN connection would easily allow a family to watch iPlayer on all their own devices, simultaneously, in full HD. For business and creative use, the reliability, upload and low latency is a different world to ADSL broadband. 
 
+## {% fa hashtag %} How will this affect how Ingleton looks?
+
+Please see our [Conservation Policy](/conservation/) for a full explanation on how our work will affect the built and natural environment of the village and the surrounding area.
+
 For more Frequently Asked Questions, please see those on [the B4RN website](https://b4rn.org.uk/faqs/).
+

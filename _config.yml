@@ -82,6 +82,7 @@ theme_config:
     Volunteers: volunteers/
     FAQ: faq/
     Investing: investing/
+    Conservation: conservation/
     #Categories: categories
     #Tags: tags
     #Archives: archives

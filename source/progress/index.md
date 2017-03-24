@@ -35,7 +35,7 @@ Each zone has a friendly neighourhood **Zone Champion** in charge.
 
 Zone 13 was the first village centre zone to break ground, and we are in the late planning stages for Zones 1, 2, 3 and 4.
 
-We hope to "go live" at the Community Centre by **the end of February 2017**. Then it is the simple matter of digging the ducting around the village and into your house!
+We hope to "go live" at the Community Centre by **the end of April 2017**. Then it is the simple matter of digging the ducting around the village and into your house!
 
 ## What next?
 
