@@ -3,18 +3,18 @@ title: Conservation Policy
 date: 2017-03-24 21:53:08
 ---
 
-As we install the B4RN network in the village, you may notice some small changes to the local environment.
+As we install the B4RN network in the village, you may notice some small changes around the village.
  
 We are sure that this project will be **overwhelmingly good for Ingleton**. However, installing any kind of service (be it electricity, telecom, gas, etc.) is bound to:
  
 - cause some **temporary** disruption
-- leave some **permanent**, but small, visible fixings in place.
+- leave some **permanent** (but small) fixings in place.
  
 The vast majority of the impact of installing B4RN will be **temporary**.
  
-- With rain, some areas of trenching may get muddy but we will take every precaution to leave the area tidy and safe. Grass will regrow, and the vast majority of the network will be safely hidden underground. 
+- With rain, some areas of trenching may get muddy, but we will take every precaution to leave the area tidy and safe. Grass will regrow, and the vast majority of the network will be completely hidden underground. 
 
-- We will limit the number of road crossings we perform to the essential and ensure reinstatement to professional standards.  All road crossings are managed and supervised by B4RN staff in accordance with the terms of their ‘Section 50’ licence under the New Roads and Street Works Act 1991.
+- We will limit the number of road crossings we perform to the essential, and ensure reinstatement to professional standards.  All road crossings are managed and supervised by B4RN staff in accordance with the terms of their 'Section 50' licence under the New Roads and Street Works Act 1991.
  
 In the normal course of our work, some fixings will be **permanent and visible**. 
  
@@ -33,7 +33,7 @@ The natural and built environment of Ingleton is not only highly valued by the p
  
 So we understand the importance of not causing harm to the special character of Ingleton. 
  
-It is our policy to take great care at all times, paying special attention to the appearance of any visible fixtures, and ensure a professional level of finish **we can be proud of as a community**. 
+It is our policy to take great care at all times, paying special attention to the appearance of any visible fixtures, and ensure a professional level of finish we can be proud of as a community. 
  
 If at all possible, ducting will be buried so that there is no impact on the appearance of the village. Any visible fixture will be installed with a high level of professionalism in a way which will not significantly detract from the appearance of the built or natural environment.
 
