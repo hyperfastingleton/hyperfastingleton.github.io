@@ -119,10 +119,10 @@ theme_config:
   widgets:
       - recent_posts
       #- category
+      - links
       - archive
       #- tag
       #- tagcloud
-      - links
 
   # Search
   search:
