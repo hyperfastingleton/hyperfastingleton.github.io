@@ -16,4 +16,4 @@ Send an email to **[hyperfastingleton@gmail.com](mailto:hyperfast.ingleton@gmail
 
 ### Remember, B4RN does not come to us. We dig to B4RN!
 
-B4RN is a being brought to Ingleton **entirely by volunteers** who live in and around Ingleton, supported by the independent Internet Service Provider (ISP) *Broadband for the Rural North*, based in Melling, which has 15 staff and is **owned entirely by the community**. We have dozens of volunteers, but we need all the help we can get. If you want to get B4RN, please see our pages on [volunteering](/volunteers/) and [investing](/investing/).
+B4RN is a being brought to Ingleton **entirely by volunteers** who live in and around Ingleton, supported by the independent Internet Service Provider (ISP) *Broadband for the Rural North*, based in Melling, which has 20 staff and is **owned entirely by the community**. We have dozens of volunteers, but we need all the help we can get. If you want to get B4RN, please see our pages on [volunteering](/volunteers/) and [investing](/investing/).

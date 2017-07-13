@@ -96,7 +96,7 @@ theme_config:
           url: images/logo.png
       profile:
           enabled: true # Whether to show profile bar
-          avatar: images/logo-zones.jpg
+          avatar: images/logo-hyperfast-viaduct.jpg
           gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
           author: Hyperfast Ingleton
           author_title: Gigabit B4RN internet for Ingleton
@@ -143,7 +143,7 @@ theme_config:
   plugins:
       lightgallery: true # options: true, false
       justifiedgallery: true # options: true, false
-      google_analytics: # enter the tracking ID for your Google Analytics
+      google_analytics: UA-91756684-1 # enter the tracking ID for your Google Analytics
       google_site_verification: # enter Google site verification code
       baidu_analytics: # enter Baidu Analytics hash key
 
