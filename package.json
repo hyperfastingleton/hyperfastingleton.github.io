@@ -22,6 +22,14 @@
     "hexo-tag-fontawesome": "^1.0.0"
   },
   "devDependencies": {
-    "hexo-deployer-git": "^0.2.0"
+    "@mapbox/togeojson": "0.16.0",
+    "extract-zip": "1.6.5",
+    "geojson-validation": "0.1.6",
+    "hexo-deployer-git": "^0.2.0",
+    "lodash": "4.17.4",
+    "mkdirp": "0.5.1",
+    "mz": "2.6.0",
+    "unzip": "0.1.11",
+    "xmldom": "0.1.27"
   }
 }
