@@ -26,29 +26,9 @@ async function main() {
     // count the total features
     console.log(`Processing ${geojson.features.length} features from ${source}`)
     
-    // var students = [{name: 'Abby', score: 84},
-    //             {name: 'Eddy', score: 58},
-    //             {name: 'Teddy', score: 58},
-    //             {name: 'Jack', score: 69}];
-
-    // let q1 = _(students)
-    //     .groupBy(s => s.score)
-    //     .mapValues(g => g.length)
-    //     .value()
-    // console.log(q1)
-
-    // let groups = _(geojson.features)
-    //     .groupBy(f => f.geometry.type)
-    //     .mapValues(g => g.length)
-    //     .value()
-    // console.log(groups)
-
     let features = _(geojson.features)
 
-    // let cabinets = features.filter(f => f.properties.name.match(/^\w*HE\d?$/)).value() // match 'IGHE' or 'IGHE2'
-    // await writeLayer('cabinets', cabinets)
-
-    // match a single word starting IG for chambers and cabinets
+    // match a single word starting IG for chambers/cabinets
     let chambers = features.filter(f => f.properties.name.match(/^IG\w*$/)).value()
     await writeLayer('chambers', chambers)
 
@@ -56,11 +36,11 @@ async function main() {
     let coreRoutes = features.filter(f => f.properties['stroke-width'] === 4).value()
     await writeLayer('coreroutes', coreRoutes)
 
-    // core routes have width=4
+    // spur routes have width=2
     let spurRoutes = features.filter(f => f.properties['stroke-width'] === 2).value()
     await writeLayer('spurroutes', spurRoutes)
 
-    // points that aren't chambers are addresses (properties)
+    // points that aren't chambers/cabinets are addresses (properties)
     let addresses = features.filter(f => f.geometry.type === 'Point').difference(chambers).value()
     await writeLayer('addresses', addresses)
 
@@ -78,12 +58,12 @@ async function writeLayer(name, features) {
 /// Given an array of features, make a geojson doc.
 function makeGeojsonDocument(features) {
 
-    let redactedFeatures = _(features).map(f => ({
+    let redactedFeatures = features.map(f => ({
         type: f.type,
         geometry: f.geometry,
-        properties: { name: f.properties.Short_Name }, // b4rnName: f.properties.name
+        properties: { name: f.properties.Short_Name },
         //properties: f.properties, // uncomment to debug 
-        })).value()
+        }))
     
     return { type: 'FeatureCollection', features: redactedFeatures }
 }
