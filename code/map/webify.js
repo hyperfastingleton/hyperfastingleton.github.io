@@ -15,6 +15,10 @@ async function main() {
 
     let source = process.argv[2]
 
+    // extract the version from the filename
+    let version = /([\d\.]+)\.kmz$/.exec(source)[1]
+    console.log(`Assuming version '${version}' of the map`)
+
     // unzip the google earth .kmz file to extract the .kml xml document
     await unzipAsync(source, 'extracted')
 
@@ -30,29 +34,29 @@ async function main() {
 
     // match a single word starting IG for chambers/cabinets
     let chambers = features.filter(f => f.properties.name.match(/^IG\w*$/)).value()
-    await writeLayer('chambers', chambers)
+    await writeLayer('chambers', version, chambers)
 
     // core routes have width=4
     let coreRoutes = features.filter(f => f.properties['stroke-width'] === 4).value()
-    await writeLayer('coreroutes', coreRoutes)
+    await writeLayer('coreroutes', version, coreRoutes)
 
     // spur routes have width=2
     let spurRoutes = features.filter(f => f.properties['stroke-width'] === 2).value()
-    await writeLayer('spurroutes', spurRoutes)
+    await writeLayer('spurroutes', version, spurRoutes)
 
     // points that aren't chambers/cabinets are addresses (properties)
     let addresses = features.filter(f => f.geometry.type === 'Point').difference(chambers).value()
-    await writeLayer('addresses', addresses)
+    await writeLayer('addresses', version, addresses)
 
     console.log('Done!')
 }
 
 
-async function writeLayer(name, features) {
+async function writeLayer(name, version, features) {
     let geojson = makeGeojsonDocument(features)
     validateGeojson(geojson)
     mkdirp('output')
-    await fs.writeFile(`output/${name}.geo.json`, JSON.stringify(geojson), 'utf8')    
+    await fs.writeFile(`output/${name}.v${version}.geo.json`, JSON.stringify(geojson), 'utf8')    
 }
 
 /// Given an array of features, make a geojson doc.
@@ -61,7 +65,9 @@ function makeGeojsonDocument(features) {
     let redactedFeatures = features.map(f => ({
         type: f.type,
         geometry: f.geometry,
-        properties: { name: f.properties.Short_Name },
+        properties: {
+            name: (f.properties.Short_Name || '').replace(/,\s*$/, "") // remove trailing comma
+        },
         //properties: f.properties, // uncomment to debug 
         }))
     
