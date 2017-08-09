@@ -78,6 +78,7 @@ theme_config:
   menu:
     #Home: .
     Introduction: introduction/
+    Map: map/
     Progress: progress/
     Volunteers: volunteers/
     FAQ: faq/

@@ -29,7 +29,7 @@ The latest route plan for Ingleton.  View [full screen](https://api.mapbox.com/s
 
 var url = 'https://api.mapbox.com/styles/v1/sumothecat/cj5w3i6w672u12slb33spg3te/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic3Vtb3RoZWNhdCIsImEiOiJjaWxocngyanYwMDY4dmprcTg4ODN2Z3B2In0.CockfZdHAzqOfsbw8VcQyQ';
 
-var map = L.map('map').setView([54.151, -2.470], 15);
+var map = L.map('map').setView([54.151, -2.468], 15);
 L.tileLayer(url, { maxZoom: 20 }).addTo(map);
 
 </script>
