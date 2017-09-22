@@ -45,8 +45,12 @@ async function main() {
     await writeLayer('spurroutes', version, spurRoutes)
 
     // points that aren't chambers/cabinets are addresses (properties)
-    let addresses = features.filter(f => f.geometry.type === 'Point').difference(chambers).value()
+    let addresses = features.filter(f => f.geometry.type === 'Point')
+        .difference(chambers)
+        .filter(f => f.properties.Short_Name) // remove any properties with no Short_Name
+        .value()
     await writeLayer('addresses', version, addresses)
+    console.log(`Wrote ${addresses.length} addresses.`)
 
     console.log('Done!')
 }
