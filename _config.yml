@@ -156,6 +156,7 @@ theme_config:
           twitter_id:
           google_plus:
       links:
+          'Contact us': /sign-up/
           'Follow us on Facebook': https://www.facebook.com/HyperfastIngleton
           'Official B4RN website': https://b4rn.org.uk
           'Broadband speed test': http://www.speedtest.net/
