@@ -79,6 +79,7 @@ theme_config:
     #Home: .
     Introduction: introduction/
     Map: map/
+    Calendar: calendar/
     Progress: progress/
     Volunteers: volunteers/
     FAQ: faq/
