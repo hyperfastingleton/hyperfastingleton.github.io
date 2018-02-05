@@ -19,5 +19,4 @@ If the answers are YES, the most popular way to invest is to buy shares. For exa
 
 * Beatrice buys £1,500 of B4RN shares. When her property is connected, she gets her **£150 connection for free**. Since she is employed and earns over £15k annually, she claims back **£405 from HMRC** as one-off EIS tax-relief via her self-assessment tax return or adjusted tax code. From year 4 onwards, she receives **5% interest on her investment** as a payment of £75 / year, for as long as she holds the shares (this is subject to board approval and available funds).
 
-A printable version of our investment document is available on our [Google Drive](https://docs.google.com/document/d/1SSvy59x9pKYBNXRlsbyYcOJ6PZUk9AAt-2E-KUupQ5M/edit). *Please note: The 5% interest rate for loans (as opposed to shares) has been recently reduced. We need to update the loan examples.*
-
+Full details about investing in B4RN are available on the [B4RN website investment pages](https://b4rn.org.uk/b4rn-community/investors/). 
